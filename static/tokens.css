@@ -1,0 +1,72 @@
+/* Hallmark · tokens · theme: Midnight (atmospheric cluster)
+ * axes — paper band: dark (L 13 %) · display style: geometric-sans (Bricolage Grotesque) · accent hue: cool (indigo 250°)
+ * Every colour and font in site.css references these by name. Add a token here before using a new value.
+ */
+:root {
+  /* colour — anchor hue 250 (indigo). Higher surfaces are lighter, never shadowed. */
+  --color-paper:         oklch(13% 0.012 250);
+  --color-paper-2:       oklch(17% 0.014 250);
+  --color-paper-3:       oklch(21% 0.016 250);
+  --color-paper-4:       oklch(25% 0.016 250);
+  --color-rule:          oklch(31% 0.014 250);
+  --color-neutral:       oklch(68% 0.012 250);
+  --color-muted:         oklch(77% 0.010 250);
+  --color-ink:           oklch(94% 0.008 250);
+  --color-accent:        oklch(74% 0.130 250);
+  --color-accent-hover:  oklch(80% 0.115 250);
+  --color-accent-deep:   oklch(46% 0.160 250);   /* accent glyph on a light surface (S badge star) */
+  --color-accent-ink:    oklch(14% 0.020 250);   /* text on accent fill */
+  --color-focus:         oklch(84% 0.120 250);
+  --color-bloom-1:       oklch(38% 0.130 250);
+  --color-bloom-2:       oklch(34% 0.100 320);
+  --color-placeholder:   oklch(19% 0.006 250);   /* labelled grey block for pending content */
+  --color-shadow:        oklch(5%  0.010 250);
+
+  /* type — display + body + one outlier (mono: date stamps, fact values). JP glyphs fall through to Hiragino / Noto Sans JP. */
+  --font-display: "Bricolage Grotesque", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-body:    "Geist", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-outlier: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* scale — 1.25 major third from 16 px; five sizes per page */
+  --text-sm:      0.875rem;
+  --text-base:    1rem;
+  --text-md:      1.25rem;
+  --text-lg:      1.5625rem;
+  --text-xl:      1.9531rem;
+  --text-2xl:     2.4414rem;
+  --text-display: clamp(2.125rem, 3.5vw + 1rem, 3.5rem);
+  --text-wordmark-narrow: 0.9375rem;   /* wordmark on ≤ 360 px phones only */
+
+  /* space — 4 pt scale, named by role */
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --page-gutter: clamp(1rem, 4vw, 3rem);
+  --measure-page: 68rem;
+
+  /* motion — Midnight runs 0.9× */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro:   110ms;
+  --dur-short:   200ms;
+  --dur-long:    380ms;
+
+  /* rules, radii, z */
+  --rule-hair:   1px;
+  --radius-sm:   0.375rem;
+  --radius-md:   0.75rem;
+  --radius-pill: 999px;
+  --z-base:     1;
+  --z-raised:   10;
+  --z-dropdown: 100;
+  --z-sticky:   200;
+  --z-modal:    400;
+  --z-toast:    500;
+}
