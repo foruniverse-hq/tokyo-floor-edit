@@ -1,5 +1,5 @@
 /* Tokyo Peak Time — no dependencies.
- * 1. nav disclosure (narrow widths)   2. age gate (localStorage flag only)
+ * 1. masthead nav disclosure (narrow widths)   2. age gate (localStorage flag only)
  * 3. reveal-once for rows/cards (IntersectionObserver, 200 ms opacity/transform, skipped under reduced-motion)
  * 4. home hero canvas: 3 moving-light fans + value-noise fog + rare low-amplitude strobe.
  *    Photosensitivity: at most 1 flash per 2.5 s (never > 2 / s), peak +7 % luminance, 120 ms decay.
@@ -13,9 +13,9 @@
   var rmq = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
   function reduced() { return !!(rmq && rmq.matches); }
 
-  // ---- 1. nav pill: toggle the link list under 40rem
-  var nav = doc.querySelector(".nav-pill");
-  var toggle = nav && nav.querySelector(".nav-pill__toggle");
+  // ---- 1. masthead: toggle the link list under 40rem (body.nav-open dims the page behind it)
+  var nav = doc.querySelector(".mast");
+  var toggle = nav && nav.querySelector(".mast__toggle");
   if (nav && toggle) {
     var setNav = function (open) {
       nav.classList.toggle("is-open", open);
@@ -51,9 +51,12 @@
     });
   }
 
-  // ---- 3. reveal once
+  // ---- 3. reveal once. Two safety nets so rows can never stay hidden: anything already in the first screen is
+  //         revealed at once, and after 2.5 s everything left is revealed without animation (an observer that never
+  //         fires — seen under viewport emulation — must not blank the list).
   var items = doc.querySelectorAll(".reveal");
   if (items.length) {
+    var showAll = function () { items.forEach(function (el) { el.classList.add("is-in"); }); };
     if ("IntersectionObserver" in window && !reduced()) {
       var io = new IntersectionObserver(function (entries) {
         var k = 0;
@@ -64,9 +67,15 @@
           io.unobserve(en.target);
         });
       }, { rootMargin: "0px 0px -4% 0px", threshold: 0.05 });
-      items.forEach(function (el) { io.observe(el); });
+      var vh = window.innerHeight || 800, k0 = 0;
+      items.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        if (r.top < vh && r.bottom > 0) { el.style.setProperty("--d", Math.min(k0++ * 30, 240) + "ms"); el.classList.add("is-in"); }
+        else io.observe(el);
+      });
+      setTimeout(function () { io.disconnect(); showAll(); }, 2500);
     } else {
-      items.forEach(function (el) { el.classList.add("is-in"); });
+      showAll();
     }
   }
 

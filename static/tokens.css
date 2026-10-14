@@ -24,6 +24,9 @@
   --color-plate:         oklch(99% 0.005 250);   /* white plate under light-background venue logos */
   --color-glow:          oklch(74% 0.130 250 / 0.45);   /* S badge halo (static); hover halo is the same at 0.85 */
   --color-glow-strong:   oklch(80% 0.115 250 / 0.85);
+  --color-warm-1:        oklch(78% 0.150 70);    /* label swatches only: party = amber → rose (mirrors ogimage.py PALETTES) */
+  --color-warm-2:        oklch(64% 0.180 10);
+  --color-scrim:         oklch(5%  0.010 250 / 0.55);   /* flyer frame: blurred poster is dimmed under the flyer */
 
   /* type — display + body + one outlier (mono: date stamps, fact values). JP glyphs fall through to Hiragino / Noto Sans JP. */
   --font-display: "Bricolage Grotesque", "Hiragino Sans", "Noto Sans JP", sans-serif;
@@ -54,6 +57,11 @@
   --measure-page: 68rem;
   --hero-min:     min(78svh, 46rem);   /* home hero: canvas height */
   --poster-thumb: 6.5rem;              /* venue card poster width */
+  --flyer-thumb:  5.5rem;              /* event row flyer frame width (3:4) */
+  --flyer-thumb-narrow: 4.5rem;        /* same under 40 rem */
+  --mast-h:       3.5rem;              /* site header height (sticky) */
+  --chip:         2.25rem;             /* label image chip width (3:2) */
+  --label-art:    11rem;               /* criteria label card art width (3:2) at ≥ 40 rem */
 
   /* motion — Midnight runs 0.9× */
   --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
@@ -76,4 +84,28 @@
   --z-sticky:   200;
   --z-modal:    400;
   --z-toast:    500;
+}
+
+/* print — same token names, paper-safe values; site.css hides canvas / blooms / marquee under @media print */
+@media print {
+  :root {
+    --color-paper:   oklch(99.5% 0.003 250);
+    --color-paper-2: oklch(97% 0.004 250);
+    --color-paper-3: oklch(94% 0.006 250);
+    --color-paper-4: oklch(90% 0.008 250);
+    --color-rule:    oklch(80% 0.010 250);
+    --color-neutral: oklch(45% 0.012 250);
+    --color-muted:   oklch(35% 0.012 250);
+    --color-ink:     oklch(15% 0.012 250);
+    --color-accent:  oklch(46% 0.160 250);
+    --color-accent-hover: oklch(40% 0.160 250);
+    --color-accent-deep:  oklch(46% 0.160 250);
+    --color-accent-ink:   oklch(99% 0.005 250);
+    --color-focus:   oklch(46% 0.160 250);
+    --color-placeholder: oklch(96% 0.004 250);
+    --color-shadow:  oklch(5% 0.010 250 / 0);
+    --color-glow:    oklch(74% 0.130 250 / 0);
+    --color-glow-strong: oklch(80% 0.115 250 / 0);
+    --color-scrim:   oklch(5% 0.010 250 / 0);
+  }
 }

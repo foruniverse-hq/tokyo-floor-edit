@@ -22,23 +22,29 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ja_JP">
 <meta name="color-scheme" content="dark">
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css">
+<link rel="stylesheet" href="/static/site.css?v=c342a3ec">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<nav class="nav-pill" aria-label="Site">
-  <a class="wordmark" href="/en/">Tokyo Peak Time</a>
-  <button class="nav-pill__toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-  <ul class="nav-pill__links" id="nav-links">
-    <li><a href="/en/">This week</a></li>
-    <li><a href="/en/venues/" aria-current="page">Venues</a></li>
-    <li><a href="/en/criteria/">Criteria</a></li>
-  </ul>
-  <a class="nav-pill__lang" href="/venues/" lang="ja" hreflang="ja">日本語</a>
-</nav>
+<header class="mast" id="top">
+  <div class="wrap mast__row">
+    <a class="mast__brand" href="/en/" aria-label="Tokyo Peak Time">
+      <svg class="mark" viewBox="205 300 605 514" aria-hidden="true" focusable="false"><path fill="currentColor" d="M205 300h270v80H205zM300 380h80v344h-80zM540 300h80v424h-80zM620 300h190v80H620zM730 380h80v180h-80zM620 480h110v80H620z"/><path class="mark__bar" d="M300 782h424v32H300z"/></svg>
+      <span class="wordmark">Tokyo Peak Time</span>
+    </a>
+    <nav class="mast__nav" id="mast-nav" aria-label="Site">
+      <a href="/en/">This week</a>
+      <a href="/en/venues/" aria-current="page">Venues</a>
+      <a href="/en/criteria/">Criteria</a>
+    </nav>
+    <a class="mast__lang" href="/venues/" lang="ja" hreflang="ja">日本語</a>
+    <button class="mast__toggle" type="button" aria-expanded="false" aria-controls="mast-nav">Menu</button>
+  </div>
+</header>
 
 <main id="main" class="page">
 <div class="wrap">
@@ -47,330 +53,10 @@
     <p class="muted">Tokyo’s clubs, by area. Three labels: Music-first, Party, Mixed. Open a venue for our honest rating.</p>
   </header>
   <div class="areas">
-    <section class="area">
-      <h2>Shimokitazawa</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/counter-club/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/counter-club.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/counter-club.svg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/counter-club/">COUNTER CLUB</a></p>
-<p class="vcard__teaser">Shimokitazawa music bar: Taguchi sound system, house and disco into the morning.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/spread/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/spread.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/spread/">Spread</a></p>
-<p class="vcard__teaser">Shimokitazawa basement club for techno and bass, with a sound-first rig.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Nakameguro</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/solfa/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/solfa.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/solfa/">Solfa</a></p>
-<p class="vcard__teaser">Nakameguro small club with a 70-person dance floor, open since 2008.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 70</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 1</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/hven/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/hven.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/hven.webp" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/hven/">HVEN</a></p>
-<p class="vcard__teaser">Nakameguro club under the tracks: techno and house, a cafe by day.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Nakano</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/nakano-heavysick-zero/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/nakano-heavysick-zero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/nakano-heavysick-zero.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/nakano-heavysick-zero/">Nakano Heavysick Zero</a></p>
-<p class="vcard__teaser">Nakano&#39;s 24-year hub for Japanese rap and techno</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 120</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Daikanyama</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/daikanyama-ord/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/daikanyama-ord.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/daikanyama-ord/">Daikanyama ORD.</a></p>
-<p class="vcard__teaser">Daikanyama two-floor club on d&amp;b sound; the genre changes nightly.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span><span>cap. 250</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/saloon/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/saloon.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/saloon.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/saloon/">Saloon</a></p>
-<p class="vcard__teaser">UNIT&#39;s sister DJ bar-club on basement level three in Daikanyama.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 100</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/debris/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/debris.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/d-bris.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/debris/">Débris</a></p>
-<p class="vcard__teaser">Daikanyama hideaway built in 2018 by the Zipang festival crew.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Roppongi</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/sel-octagon-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/sel-octagon-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/sel-octagon-tokyo.svg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/sel-octagon-tokyo/">SEL OCTAGON TOKYO</a></p>
-<p class="vcard__teaser">Avex-run luxury pop lounge club in front of Roppongi Midtown.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span><span>cap. 580</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/cube/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/cube.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/cube.svg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/cube/">Cube</a></p>
-<p class="vcard__teaser">Basement event space in Roppongi; the vibe depends on the night&#39;s event.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span><span>cap. 100</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/esprit-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/esprit-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/esprit-tokyo.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/esprit-tokyo/">ESPRIT TOKYO</a></p>
-<p class="vcard__teaser">Large, flashy Roppongi club centered on EDM and hip-hop.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/jumanji-55/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/jumanji-55.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/jumanji-55.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/jumanji-55/">JUMANJI 55</a></p>
-<p class="vcard__teaser">Small Roppongi spot: all-you-can-drink, ladies&#39; nights, official page stale since 2018.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/mist-roppongi/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/mist-roppongi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/mist-roppongi/">MIST Roppongi</a></p>
-<p class="vcard__teaser">A small Roppongi social-first spot; party-oriented rather than music-led.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/v2-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/v2-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/v2-tokyo.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/v2-tokyo/">V2 TOKYO</a></p>
-<p class="vcard__teaser">Roppongi&#39;s classic social-first spot. Dancer shows and views.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 1</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Minami-Aoyama</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/vent/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/vent.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/vent/">VENT</a></p>
-<p class="vcard__teaser">VENT: selected house and techno in two sound-focused rooms.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Mid</span><span>cap. 400</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 9</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Harajuku</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/bonobo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/bonobo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/bonobo.jpg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/bonobo/">Bonobo</a></p>
-<p class="vcard__teaser">Underground sounds through 1970s speakers at a Harajuku DJ bar.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/royal-lounge/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/royal-lounge.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/royal-lounge/">Royal Lounge</a></p>
-<p class="vcard__teaser">Harajuku lounge: techno and house on weekdays, hip-hop on weekends.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Oba (outdoor)</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/oba-camp-village/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/oba-camp-village.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/oba-camp-village/">Oba Camp Village</a></p>
-<p class="vcard__teaser">Outdoor rave site outside Tokyo, home to INTERGALACTIC and similar events.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Large</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 2</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Ota</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/zubar/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/zubar.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/zubar.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/zubar/">ZUBAR</a></p>
-<p class="vcard__teaser">Left Shibuya; reopened in Kita-Magome in November 2025 as a DJ bar.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Hatagaya</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/forestlimit/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/forestlimit.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/forestlimit.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/forestlimit/">Forestlimit</a></p>
-<p class="vcard__teaser">Tiny Hatagaya room for experimental and bass-leaning music lovers.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 50</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 1</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Shinjuku</h2>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/zerotokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/zerotokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/zerotokyo.svg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/zerotokyo/">ZEROTOKYO</a></p>
-<p class="vcard__teaser">Kabukicho Tower club, 1,500 capacity, with a different crowd each night.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Large</span><span>cap. 1500</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 3</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/t2-shinjuku/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/t2-shinjuku.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/t2-shinjuku.svg" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/t2-shinjuku/">T2 Shinjuku</a></p>
-<p class="vcard__teaser">By Seibu-Shinjuku Station: a 1,000-capacity club that bills itself Japan&#39;s largest.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/warp-shinjuku/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/warp-shinjuku.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/warp-shinjuku.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/warp-shinjuku/">WARP SHINJUKU</a></p>
-<p class="vcard__teaser">4-floor venue in Kabukicho with VIP and K-pop parties</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/aisotope-lounge/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/aisotope-lounge.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/aisotope-lounge/">Aisotope Lounge</a></p>
-<p class="vcard__teaser">LGBTQ+ club in Shinjuku Nichome with drag shows and socializing-first nights.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span><span>cap. 250</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/arch/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/arch.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/arch.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/arch/">Arch</a></p>
-<p class="vcard__teaser">LGBTQ club in Shinjuku Nichome: drag shows and themed parties.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span></p>
-          </div>
-          <p class="vcard__count">upcoming S/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Shibuya</h2>
+    <section class="area" aria-labelledby="area-1">
+      <header class="area__head area__head--strip">
+        <h2 id="area-1" class="area__name">Shibuya<span class="area__n mono">26</span></h2>
+      </header>
       <ul class="vlist">
         <li class="vcard reveal">
           <a class="vcard__art" href="/en/venues/midnight-east/" aria-hidden="true" tabindex="-1">
@@ -424,7 +110,7 @@
             <p class="vcard__name"><a href="/en/venues/clubasia/">clubasia</a></p>
 <p class="vcard__teaser">Maruyamacho club open since 1996, mixing live shows and club nights.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Mid</span><span>cap. 600</span></p>
           </div>
-          <p class="vcard__count">upcoming S/A 3</p>
+          <p class="vcard__count">upcoming S/A 4</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/en/venues/s-nightclub/" aria-hidden="true" tabindex="-1">
@@ -611,7 +297,7 @@
             <p class="vcard__name"><a href="/en/venues/or/">or</a></p>
 <p class="vcard__teaser">Cafe-bar in Miyashita Park with hip-hop and anime-song nights.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span></p>
           </div>
-          <p class="vcard__count">upcoming S/A 0</p>
+          <p class="vcard__count">upcoming S/A 1</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/en/venues/r-lounge/" aria-hidden="true" tabindex="-1">
@@ -658,56 +344,143 @@
         </li>
       </ul>
     </section>
-    <section class="area">
-      <h2>Ginza</h2>
+    <section class="area" aria-labelledby="area-2">
+      <header class="area__head area__head--strip">
+        <h2 id="area-2" class="area__name">Shinjuku<span class="area__n mono">5</span></h2>
+      </header>
       <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/zouk-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/zouk-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/zouk-tokyo.png" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/en/venues/zerotokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/zerotokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/zerotokyo.svg" alt="" loading="lazy" decoding="async"></span>
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/zouk-tokyo/">Zouk Tokyo</a></p>
-<p class="vcard__teaser">Ginza party club built around VIP tables and high energy.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
+            <p class="vcard__name"><a href="/en/venues/zerotokyo/">ZEROTOKYO</a></p>
+<p class="vcard__teaser">Kabukicho Tower club, 1,500 capacity, with a different crowd each night.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Large</span><span>cap. 1500</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 3</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/t2-shinjuku/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/t2-shinjuku.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/t2-shinjuku.svg" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/t2-shinjuku/">T2 Shinjuku</a></p>
+<p class="vcard__teaser">By Seibu-Shinjuku Station: a 1,000-capacity club that bills itself Japan&#39;s largest.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/warp-shinjuku/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/warp-shinjuku.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/warp-shinjuku.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/warp-shinjuku/">WARP SHINJUKU</a></p>
+<p class="vcard__teaser">4-floor venue in Kabukicho with VIP and K-pop parties</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/aisotope-lounge/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/aisotope-lounge.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/aisotope-lounge/">Aisotope Lounge</a></p>
+<p class="vcard__teaser">LGBTQ+ club in Shinjuku Nichome with drag shows and socializing-first nights.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span><span>cap. 250</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/arch/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/arch.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/arch.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/arch/">Arch</a></p>
+<p class="vcard__teaser">LGBTQ club in Shinjuku Nichome: drag shows and themed parties.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span></p>
           </div>
           <p class="vcard__count">upcoming S/A 0</p>
         </li>
       </ul>
     </section>
-    <section class="area">
-      <h2>Aoyama</h2>
+    <section class="area" aria-labelledby="area-3">
+      <header class="area__head area__head--strip">
+        <h2 id="area-3" class="area__name">Roppongi<span class="area__n mono">6</span></h2>
+      </header>
       <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/aoyama-hachi/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/aoyama-hachi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/aoyama-hachi.png" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/en/venues/sel-octagon-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/sel-octagon-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/sel-octagon-tokyo.svg" alt="" loading="lazy" decoding="async"></span>
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/aoyama-hachi/">Aoyama Hachi</a></p>
-<p class="vcard__teaser">Aoyama three-floor club since 1995, known for its Asahachi morning sessions.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+            <p class="vcard__name"><a href="/en/venues/sel-octagon-tokyo/">SEL OCTAGON TOKYO</a></p>
+<p class="vcard__teaser">Avex-run luxury pop lounge club in front of Roppongi Midtown.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span><span>cap. 580</span></p>
           </div>
           <p class="vcard__count">upcoming S/A 0</p>
         </li>
-      </ul>
-    </section>
-    <section class="area">
-      <h2>Koenji</h2>
-      <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/en/venues/koenji-cave/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/koenji-cave.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/koenji-cave.png" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/en/venues/cube/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/cube.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/cube.svg" alt="" loading="lazy" decoding="async"></span>
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/en/venues/koenji-cave/">Koenji Cave</a></p>
-<p class="vcard__teaser">Koenji club, 11 PM to 6 AM, running its own music series.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+            <p class="vcard__name"><a href="/en/venues/cube/">Cube</a></p>
+<p class="vcard__teaser">Basement event space in Roppongi; the vibe depends on the night&#39;s event.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span><span>cap. 100</span></p>
           </div>
           <p class="vcard__count">upcoming S/A 0</p>
         </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/esprit-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/esprit-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/esprit-tokyo.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/esprit-tokyo/">ESPRIT TOKYO</a></p>
+<p class="vcard__teaser">Large, flashy Roppongi club centered on EDM and hip-hop.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/jumanji-55/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/jumanji-55.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/jumanji-55.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/jumanji-55/">JUMANJI 55</a></p>
+<p class="vcard__teaser">Small Roppongi spot: all-you-can-drink, ladies&#39; nights, official page stale since 2018.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/mist-roppongi/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/mist-roppongi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/mist-roppongi/">MIST Roppongi</a></p>
+<p class="vcard__teaser">A small Roppongi social-first spot; party-oriented rather than music-led.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/v2-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/v2-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/v2-tokyo.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/v2-tokyo/">V2 TOKYO</a></p>
+<p class="vcard__teaser">Roppongi&#39;s classic social-first spot. Dancer shows and views.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Mid</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 1</p>
+        </li>
       </ul>
     </section>
-    <section class="area">
-      <h2>Azabu-Juban</h2>
+    <section class="area" aria-labelledby="area-4">
+      <header class="area__head area__head--strip">
+        <h2 id="area-4" class="area__name">Azabu-Juban<span class="area__n mono">1</span></h2>
+      </header>
       <ul class="vlist">
         <li class="vcard reveal">
           <a class="vcard__art" href="/en/venues/1-oak-tokyo/" aria-hidden="true" tabindex="-1">
@@ -722,6 +495,271 @@
         </li>
       </ul>
     </section>
+    <section class="area" aria-labelledby="area-5">
+      <header class="area__head area__head--strip">
+        <h2 id="area-5" class="area__name">Harajuku<span class="area__n mono">2</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/bonobo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/bonobo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/bonobo.jpg" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/bonobo/">Bonobo</a></p>
+<p class="vcard__teaser">Underground sounds through 1970s speakers at a Harajuku DJ bar.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/royal-lounge/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/royal-lounge.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/royal-lounge/">Royal Lounge</a></p>
+<p class="vcard__teaser">Harajuku lounge: techno and house on weekdays, hip-hop on weekends.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-6">
+      <header class="area__head area__head--strip">
+        <h2 id="area-6" class="area__name">Minami-Aoyama<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/vent/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/vent.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/vent/">VENT</a></p>
+<p class="vcard__teaser">VENT: selected house and techno in two sound-focused rooms.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Mid</span><span>cap. 400</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 11</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-7">
+      <header class="area__head area__head--strip">
+        <h2 id="area-7" class="area__name">Aoyama<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/aoyama-hachi/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/aoyama-hachi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/aoyama-hachi.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/aoyama-hachi/">Aoyama Hachi</a></p>
+<p class="vcard__teaser">Aoyama three-floor club since 1995, known for its Asahachi morning sessions.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-8">
+      <header class="area__head area__head--strip">
+        <h2 id="area-8" class="area__name">Daikanyama<span class="area__n mono">3</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/daikanyama-ord/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/daikanyama-ord.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/daikanyama-ord/">Daikanyama ORD.</a></p>
+<p class="vcard__teaser">Daikanyama two-floor club on d&amp;b sound; the genre changes nightly.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Small</span><span>cap. 250</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/saloon/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/saloon.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/saloon.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/saloon/">Saloon</a></p>
+<p class="vcard__teaser">UNIT&#39;s sister DJ bar-club on basement level three in Daikanyama.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 100</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/debris/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/debris.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/d-bris.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/debris/">Débris</a></p>
+<p class="vcard__teaser">Daikanyama hideaway built in 2018 by the Zipang festival crew.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-9">
+      <header class="area__head area__head--strip">
+        <h2 id="area-9" class="area__name">Nakameguro<span class="area__n mono">2</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/solfa/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/solfa.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/solfa/">Solfa</a></p>
+<p class="vcard__teaser">Nakameguro small club with a 70-person dance floor, open since 2008.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 70</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 1</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/hven/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/hven.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/hven.webp" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/hven/">HVEN</a></p>
+<p class="vcard__teaser">Nakameguro club under the tracks: techno and house, a cafe by day.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-10">
+      <header class="area__head area__head--strip">
+        <h2 id="area-10" class="area__name">Shimokitazawa<span class="area__n mono">2</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/counter-club/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/counter-club.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/counter-club.svg" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/counter-club/">COUNTER CLUB</a></p>
+<p class="vcard__teaser">Shimokitazawa music bar: Taguchi sound system, house and disco into the morning.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/spread/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/spread.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/spread/">Spread</a></p>
+<p class="vcard__teaser">Shimokitazawa basement club for techno and bass, with a sound-first rig.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-11">
+      <header class="area__head area__head--strip">
+        <h2 id="area-11" class="area__name">Nakano<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/nakano-heavysick-zero/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/nakano-heavysick-zero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/nakano-heavysick-zero.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/nakano-heavysick-zero/">Nakano Heavysick Zero</a></p>
+<p class="vcard__teaser">Nakano&#39;s 24-year hub for Japanese rap and techno</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 120</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-12">
+      <header class="area__head area__head--strip">
+        <h2 id="area-12" class="area__name">Oba (outdoor)<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/oba-camp-village/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/oba-camp-village.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/oba-camp-village/">Oba Camp Village</a></p>
+<p class="vcard__teaser">Outdoor rave site outside Tokyo, home to INTERGALACTIC and similar events.</p>            <p class="vcard__facts"><span class="tag">Mixed</span><span>Large</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 2</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-13">
+      <header class="area__head area__head--strip">
+        <h2 id="area-13" class="area__name">Ota<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/zubar/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/zubar.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/zubar.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/zubar/">ZUBAR</a></p>
+<p class="vcard__teaser">Left Shibuya; reopened in Kita-Magome in November 2025 as a DJ bar.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-14">
+      <header class="area__head area__head--strip">
+        <h2 id="area-14" class="area__name">Hatagaya<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/forestlimit/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/forestlimit.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/forestlimit.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/forestlimit/">Forestlimit</a></p>
+<p class="vcard__teaser">Tiny Hatagaya room for experimental and bass-leaning music lovers.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span><span>cap. 50</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 1</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-15">
+      <header class="area__head area__head--strip">
+        <h2 id="area-15" class="area__name">Ginza<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/zouk-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/zouk-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/zouk-tokyo.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/zouk-tokyo/">Zouk Tokyo</a></p>
+<p class="vcard__teaser">Ginza party club built around VIP tables and high energy.</p>            <p class="vcard__facts"><span class="tag">Party</span><span>Large</span><span>cap. 1000</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
+    <section class="area" aria-labelledby="area-16">
+      <header class="area__head area__head--strip">
+        <h2 id="area-16" class="area__name">Koenji<span class="area__n mono">1</span></h2>
+      </header>
+      <ul class="vlist">
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/en/venues/koenji-cave/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/koenji-cave.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/koenji-cave.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/en/venues/koenji-cave/">Koenji Cave</a></p>
+<p class="vcard__teaser">Koenji club, 11 PM to 6 AM, running its own music series.</p>            <p class="vcard__facts"><span class="tag">Music-first</span><span>Small</span></p>
+          </div>
+          <p class="vcard__count">upcoming S/A 0</p>
+        </li>
+      </ul>
+    </section>
   </div>
 </div>
 </main>
@@ -731,11 +769,13 @@
   <div class="foot-stmt__meta">
     <span class="wordmark">Tokyo Peak Time</span>
     <ul class="foot-stmt__links">
+      <li><a href="/en/">This week</a></li>
+      <li><a href="/en/venues/">Venues</a></li>
       <li><a href="/en/criteria/">How we rate</a></li>
       <li><a href="/en/policy/">Policy &amp; privacy</a></li>
       <li><a href="mailto:hayashi@foruniverse.jp">Contact</a></li>
     </ul>
-    <p class="foot-stmt__fine">20+ only, photo ID required · Logos belong to their owners · 株式会社foruniverse · © 2026</p>
+    <p class="foot-stmt__fine">20+ only, photo ID required · Logos belong to their owners · Flyer images: Resident Advisor (promoter) · 株式会社foruniverse · © 2026</p>
   </div>
 </footer>
 
@@ -748,6 +788,6 @@
     <button class="btn" type="button" data-gate="leave">Leave</button>
   </div>
 </dialog>
-<script src="/static/site.js" defer></script>
+<script src="/static/site.js?v=c342a3ec" defer></script>
 </body>
 </html>

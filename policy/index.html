@@ -22,23 +22,29 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:locale:alternate" content="en_US">
 <meta name="color-scheme" content="dark">
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css">
+<link rel="stylesheet" href="/static/site.css?v=c342a3ec">
 </head>
 <body>
 <a class="skip" href="#main">本文へ</a>
-<nav class="nav-pill" aria-label="サイト内">
-  <a class="wordmark" href="/">Tokyo Peak Time</a>
-  <button class="nav-pill__toggle" type="button" aria-expanded="false" aria-controls="nav-links">メニュー</button>
-  <ul class="nav-pill__links" id="nav-links">
-    <li><a href="/">今週</a></li>
-    <li><a href="/venues/">箱</a></li>
-    <li><a href="/criteria/">基準</a></li>
-  </ul>
-  <a class="nav-pill__lang" href="/en/policy/" lang="en" hreflang="en">English</a>
-</nav>
+<header class="mast" id="top">
+  <div class="wrap mast__row">
+    <a class="mast__brand" href="/" aria-label="Tokyo Peak Time">
+      <svg class="mark" viewBox="205 300 605 514" aria-hidden="true" focusable="false"><path fill="currentColor" d="M205 300h270v80H205zM300 380h80v344h-80zM540 300h80v424h-80zM620 300h190v80H620zM730 380h80v180h-80zM620 480h110v80H620z"/><path class="mark__bar" d="M300 782h424v32H300z"/></svg>
+      <span class="wordmark">Tokyo Peak Time</span>
+    </a>
+    <nav class="mast__nav" id="mast-nav" aria-label="サイト内">
+      <a href="/">今週</a>
+      <a href="/venues/">箱</a>
+      <a href="/criteria/">基準</a>
+    </nav>
+    <a class="mast__lang" href="/en/policy/" lang="en" hreflang="en">English</a>
+    <button class="mast__toggle" type="button" aria-expanded="false" aria-controls="mast-nav">メニュー</button>
+  </div>
+</header>
 
 <main id="main" class="page">
 <div class="wrap">
@@ -78,11 +84,13 @@
   <div class="foot-stmt__meta">
     <span class="wordmark">Tokyo Peak Time</span>
     <ul class="foot-stmt__links">
+      <li><a href="/">今週</a></li>
+      <li><a href="/venues/">箱</a></li>
       <li><a href="/criteria/">評価の決め方</a></li>
       <li><a href="/policy/">編集方針とプライバシー</a></li>
       <li><a href="mailto:hayashi@foruniverse.jp">連絡先</a></li>
     </ul>
-    <p class="foot-stmt__fine">20歳未満は入場不可・ID必須 · ロゴは各会場の商標です · 株式会社foruniverse · © 2026</p>
+    <p class="foot-stmt__fine">20歳未満は入場不可・ID必須 · ロゴは各会場の商標です · フライヤー画像: Resident Advisor（主催者提供） · 株式会社foruniverse · © 2026</p>
   </div>
 </footer>
 
@@ -95,6 +103,6 @@
     <button class="btn" type="button" data-gate="leave">戻る</button>
   </div>
 </dialog>
-<script src="/static/site.js" defer></script>
+<script src="/static/site.js?v=c342a3ec" defer></script>
 </body>
 </html>
