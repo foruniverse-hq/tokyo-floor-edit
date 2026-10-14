@@ -21,6 +21,9 @@
   --color-bloom-2:       oklch(34% 0.100 320);
   --color-placeholder:   oklch(19% 0.006 250);   /* labelled grey block for pending content */
   --color-shadow:        oklch(5%  0.010 250);
+  --color-plate:         oklch(99% 0.005 250);   /* white plate under light-background venue logos */
+  --color-glow:          oklch(74% 0.130 250 / 0.45);   /* S badge halo (static); hover halo is the same at 0.85 */
+  --color-glow-strong:   oklch(80% 0.115 250 / 0.85);
 
   /* type — display + body + one outlier (mono: date stamps, fact values). JP glyphs fall through to Hiragino / Noto Sans JP. */
   --font-display: "Bricolage Grotesque", "Hiragino Sans", "Noto Sans JP", sans-serif;
@@ -49,6 +52,8 @@
   --space-3xl: 6rem;
   --page-gutter: clamp(1rem, 4vw, 3rem);
   --measure-page: 68rem;
+  --hero-min:     min(78svh, 46rem);   /* home hero: canvas height */
+  --poster-thumb: 6.5rem;              /* venue card poster width */
 
   /* motion — Midnight runs 0.9× */
   --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
@@ -57,6 +62,8 @@
   --dur-micro:   110ms;
   --dur-short:   200ms;
   --dur-long:    380ms;
+  --dur-pulse:   2000ms;   /* ★ on an S badge · one breath, stops under reduced-motion */
+  --dur-marquee-item: 4s;  /* headliner strip: seconds per item (× item count = one loop) */
 
   /* rules, radii, z */
   --rule-hair:   1px;
