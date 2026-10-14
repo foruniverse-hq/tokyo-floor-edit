@@ -12,7 +12,7 @@
  * deliberate deviation (owner brief 2026-10-15): two infinite loops (headliner strip, ★ pulse) — both stop under reduced-motion
  * v3 (2026-10-15): event detail pages, real site header replacing the floating pill, flyer rows, photo slots, JSON-LD, 404, print
  */
-@import url("tokens.css?v=c342a3ec");
+@import url("tokens.css?v=09d86a71");
 
 *, *::before, *::after { box-sizing: border-box; }
 html { overflow-x: clip; -webkit-text-size-adjust: 100%; color-scheme: dark; }
@@ -199,14 +199,11 @@ strong { font-weight: 500; color: var(--color-ink); }
 html:lang(ja) .hero__lead { line-height: 1.7; }
 .hero__labels { font-size: var(--text-base); color: var(--color-muted); display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); }
 .hero__labels a { white-space: nowrap; }
-/* label chips: 3:2 photo when present, else a swatch in the label's poster palette (music indigo · party amber→rose · mixed both) */
+/* label chips: 3:2 photo when present, else the label's generative poster (same artwork as the criteria cards) */
 .chip-img {
-  display: inline-block; width: var(--chip); aspect-ratio: 3 / 2; border-radius: var(--radius-sm);
-  object-fit: cover; flex: none; border: var(--rule-hair) solid var(--color-rule);
+  display: inline-block; width: var(--chip); height: auto; aspect-ratio: 3 / 2; border-radius: var(--radius-sm);   /* height: auto — the img's height attribute must not win over aspect-ratio */
+  object-fit: cover; flex: none; border: var(--rule-hair) solid var(--color-rule); background: var(--color-paper-3);
 }
-.chip-img--music { background: linear-gradient(135deg, var(--color-bloom-1), var(--color-accent)); }
-.chip-img--party { background: linear-gradient(135deg, var(--color-warm-1), var(--color-warm-2)); }
-.chip-img--mixed { background: linear-gradient(135deg, var(--color-accent), var(--color-warm-2)); }
 .chip-img + .chip-img { margin-inline-start: calc(-1 * var(--space-sm)); }
 .chip-img + .chip-img + .chip-img { margin-inline-end: var(--space-2xs); }
 @media (max-width: 39.99rem) {

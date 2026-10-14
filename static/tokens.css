@@ -24,8 +24,6 @@
   --color-plate:         oklch(99% 0.005 250);   /* white plate under light-background venue logos */
   --color-glow:          oklch(74% 0.130 250 / 0.45);   /* S badge halo (static); hover halo is the same at 0.85 */
   --color-glow-strong:   oklch(80% 0.115 250 / 0.85);
-  --color-warm-1:        oklch(78% 0.150 70);    /* label swatches only: party = amber → rose (mirrors ogimage.py PALETTES) */
-  --color-warm-2:        oklch(64% 0.180 10);
   --color-scrim:         oklch(5%  0.010 250 / 0.55);   /* flyer frame: blurred poster is dimmed under the flyer */
 
   /* type — display + body + one outlier (mono: date stamps, fact values). JP glyphs fall through to Hiragino / Noto Sans JP. */
