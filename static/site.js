@@ -1,4 +1,4 @@
-/* Tokyo Floor Edit — nav disclosure (narrow widths) + age gate (localStorage flag only). */
+/* Tokyo Peak Time — nav disclosure (narrow widths) + age gate (localStorage flag only). */
 (function () {
   "use strict";
 
@@ -27,7 +27,7 @@
   }
 
   // age gate: shown once per browser; the flag never leaves localStorage
-  var KEY = "tfe-age-ok";
+  var KEY = "tpt-age-ok";
   var gate = document.getElementById("gate");
   if (!gate || typeof gate.showModal !== "function") return;
   var ok = false;
