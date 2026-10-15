@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css?v=e3c3aa9e">
+<link rel="stylesheet" href="/static/site.css?v=158a0e23">
 </head>
 <body>
 <a class="skip" href="#main">本文へ</a>
@@ -46,7 +46,12 @@
   </div>
 </header>
 
-<main id="main" class="page">
+<div class="page-bg" aria-hidden="true"><picture>
+  <source srcset="/static/img/bg-list.webp" type="image/webp">
+  <img class="page-bg__img" src="/static/img/bg-list.jpg" alt="" width="2400" height="1357" decoding="async">
+</picture>
+</div>
+<main id="main" class="page page--photo">
 <div class="wrap">
   <header class="vh">
     <h1>箱</h1>
@@ -132,7 +137,7 @@
             <p class="vcard__name"><a href="/venues/z-maruyama/">Z Maruyama</a></p>
 <p class="vcard__teaser">円山町の小箱。WOMBチームが開いた、踊るための場</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 200</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 5</p>
+          <p class="vcard__count">今後のS/A 7</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/enter-shibuya/" aria-hidden="true" tabindex="-1">
@@ -231,7 +236,7 @@
             <p class="vcard__name"><a href="/venues/circus-tokyo/">CIRCUS Tokyo</a></p>
 <p class="vcard__teaser">渋谷・明治通り側のアンダーグラウンド箱。11周年</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>中箱</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 12</p>
+          <p class="vcard__count">今後のS/A 10</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/detour/" aria-hidden="true" tabindex="-1">
@@ -788,6 +793,6 @@
     <button class="btn" type="button" data-gate="leave">戻る</button>
   </div>
 </dialog>
-<script src="/static/site.js?v=e3c3aa9e" defer></script>
+<script src="/static/site.js?v=158a0e23" defer></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
  * deliberate deviation (owner brief 2026-10-15): two infinite loops (headliner strip, ★ pulse) — both stop under reduced-motion
  * v3 (2026-10-15): event detail pages, real site header replacing the floating pill, flyer rows, photo slots, JSON-LD, 404, print
  */
-@import url("tokens.css?v=e3c3aa9e");
+@import url("tokens.css?v=158a0e23");
 
 *, *::before, *::after { box-sizing: border-box; }
 html { overflow-x: clip; -webkit-text-size-adjust: 100%; color-scheme: dark; }
@@ -162,6 +162,29 @@ strong { font-weight: 500; color: var(--color-ink); }
 
 /* ---------- page frame ---------- */
 .page { padding-block: var(--space-xl) var(--space-2xl); }
+/* ページ全面の背景写真(site_src/static/img/bg-list.jpg / bg-explain.jpg): 固定で最背面。写真自体が暗いので、ウォッシュは
+   本文のある左を濃く(55%)、右を薄く(10%)。スマホは本文が全幅なので一律 55%。ファイルが無ければ .page-bg 自体が出ない。
+   トップはヒーローが持つので対象外 */
+.page-bg { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; background: var(--color-paper); }
+.page-bg__img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; display: block; }
+.page-bg::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(to bottom, var(--color-paper) 0%, transparent 14%, transparent 78%, var(--color-paper) 100%),
+    linear-gradient(to right,
+      color-mix(in oklch, var(--color-paper) 55%, transparent) 0%,
+      color-mix(in oklch, var(--color-paper) 30%, transparent) 55%,
+      color-mix(in oklch, var(--color-paper) 10%, transparent) 100%);
+}
+@media (max-width: 47.99rem) {
+  .page-bg__img { object-position: 62% 40%; }
+  .page-bg::after {
+    background:
+      linear-gradient(to bottom, var(--color-paper) 0%, transparent 12%, transparent 80%, var(--color-paper) 100%),
+      color-mix(in oklch, var(--color-paper) 55%, transparent);
+  }
+}
+
 .page--home { padding-block-start: 0; }
 .wrap { width: min(100% - 2 * var(--page-gutter), var(--measure-page)); margin-inline: auto; }
 
@@ -184,9 +207,25 @@ strong { font-weight: 500; color: var(--color-ink); }
    so reduced-motion (one still frame) and no-JS both show the photograph. Absent file → .hero--photo is not set, canvas on paper as before */
 .hero__still { position: absolute; inset: 0; z-index: -3; width: 100%; height: 100%; object-fit: cover; display: block; }
 .hero--photo .hero__canvas { background: transparent; mix-blend-mode: screen; }
+/* hero video (site_src/static/img/hero.mp4): 静止画の上に重ね、再生が始まったら出す。実写の動画に描画の光線を重ねると
+   嘘っぽくなるので、動画があるときはキャンバスを消す。reduced-motion では動画を出さず静止画のまま */
+.hero__video { position: absolute; inset: 0; z-index: -3; width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity 600ms ease; }
+.hero__video.is-playing { opacity: 1; }
+.hero--video .hero__canvas { display: none; }
+@media (prefers-reduced-motion: reduce) { .hero__video { display: none; } }
+/* 写真・動画のヒーロー: 見出しのある左だけ濃く(68%)、右の会場は素通し。スマホは本文が全幅なので一律 52% */
 .hero--photo::before {
   content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none;
-  background: color-mix(in oklch, var(--color-paper) 45%, transparent);
+  background: linear-gradient(to right,
+    color-mix(in oklch, var(--color-paper) 68%, transparent) 0%,
+    color-mix(in oklch, var(--color-paper) 34%, transparent) 50%,
+    transparent 80%);
+}
+.hero--photo .hero__copy { text-shadow: 0 1px 14px color-mix(in oklch, var(--color-shadow) 85%, transparent); }
+.hero.hero--photo::after { height: 30%; }
+@media (max-width: 47.99rem) {
+  .hero--photo::before { background: color-mix(in oklch, var(--color-paper) 52%, transparent); }
+  .hero__still, .hero__video { object-position: 50% 50%; }
 }
 .hero::after {
   content: ""; position: absolute; inset: auto 0 0 0; height: 46%; z-index: -1; pointer-events: none;

@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://imgproxy.ra.co">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css?v=e3c3aa9e">
+<link rel="stylesheet" href="/static/site.css?v=158a0e23">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicVenue","name":"Oath","url":"https://tokyopeaktime.com/en/venues/oath/","image":"https://tokyopeaktime.com/static/og/venues/oath.png","address":{"@type":"PostalAddress","streetAddress":"東京都渋谷区道玄坂1-6-5 東静ビル B1F","addressLocality":"Tokyo","addressCountry":"JP"},"sameAs":["https://www.djbar-oath.com/","https://www.instagram.com/shibuya_oath/"]}</script>
 </head>
 <body>
@@ -48,7 +48,12 @@
   </div>
 </header>
 
-<main id="main" class="page">
+<div class="page-bg" aria-hidden="true"><picture>
+  <source srcset="/static/img/bg-list.webp" type="image/webp">
+  <img class="page-bg__img" src="/static/img/bg-list.jpg" alt="" width="2400" height="1357" decoding="async">
+</picture>
+</div>
+<main id="main" class="page page--photo">
 <div class="wrap">
   <header class="vhero">
     <div class="vhero__art">
@@ -93,10 +98,23 @@
 
   <section class="section">
     <h2>Nights here, next 30 days</h2>
-    <div class="empty">
-      <p>No selected nights here in the next 30 days.</p>
-      <p><a class="btn" href="/en/">This week →</a></p>
-    </div>
+    <ul class="rows">
+<li class="ev reveal" data-tier="B">
+  <a class="ev__art" href="https://ra.co/events/2554632" target="_blank" rel="noopener" aria-label="View on RA: MOVE ムーブ">
+<img class="ev__art-bg" src="/static/posters/oath.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vOWE2MWEyMGYxOTFjM2ExMjU3YThlODg2YTY4N2U0NDliOGI4NWJmNC5wbmc" alt="MOVE ムーブ" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/oath.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-16">10.16</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
+      <a class="ev__title" href="/en/events/2554632/">MOVE ムーブ</a>
+    </p>
+<p class="ev__line neutral">Ticketed</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 21:00</span><span>¥2,000</span><span>20 going</span><a class="ev__out" href="https://ra.co/events/2554632" target="_blank" rel="noopener">RA ↗</a>  </div>
+</li>
+    </ul>
+    <p class="credit">Image: Resident Advisor (promoter)</p>
   </section>
 </div>
 </main>
@@ -125,6 +143,6 @@
     <button class="btn" type="button" data-gate="leave">Leave</button>
   </div>
 </dialog>
-<script src="/static/site.js?v=e3c3aa9e" defer></script>
+<script src="/static/site.js?v=158a0e23" defer></script>
 </body>
 </html>

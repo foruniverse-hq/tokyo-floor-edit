@@ -80,11 +80,23 @@
   }
 
   // ---- 4. hero canvas
+  // hero video: muted autoplay only when motion is allowed; fades in once frames are actually playing
+  var hv = doc.querySelector(".hero__video");
+  if (hv && !reduced()) {
+    hv.addEventListener("playing", function () { hv.classList.add("is-playing"); }, { once: true });
+    hv.preload = "auto";
+    var p = hv.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+  if (rmq && hv && rmq.addEventListener) rmq.addEventListener("change", function () { if (reduced()) hv.pause(); });
+
   var cv = doc.querySelector(".hero__canvas");
-  if (cv && cv.getContext) hero(cv);
+  if (cv && cv.getContext && !cv.closest(".hero--video")) hero(cv);   // real footage replaces the drawn beams
 
   function hero(cv) {
-    var ctx = cv.getContext("2d", { alpha: false });
+    // over a still photo the canvas must be transparent: an opaque canvas hides the photo even with mix-blend-mode: screen
+    var onPhoto = !!cv.closest(".hero--photo");
+    var ctx = cv.getContext("2d", { alpha: onPhoto });
     if (!ctx) return;
     var W = 0, H = 0;
     var dpr = Math.min(window.devicePixelRatio || 1, 2) * 0.5;   // half resolution: soft light does not need pixels
@@ -139,8 +151,8 @@
     function draw(t) {
       var i, b;
       ctx.globalCompositeOperation = "source-over";
-      ctx.fillStyle = "#0b0c14"; ctx.fillStyle = paper || "#0b0c14";
-      ctx.fillRect(0, 0, W, H);
+      if (onPhoto) ctx.clearRect(0, 0, W, H);
+      else { ctx.fillStyle = paper || "#0b0c14"; ctx.fillRect(0, 0, W, H); }
       ctx.globalCompositeOperation = "lighter";
       fog(fogA, (t * 0.011) % 1, 0.13, H * 0.05);
       fog(fogB, 1 - (t * 0.007) % 1, 0.05, -H * 0.1);
