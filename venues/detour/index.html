@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src &#39;self&#39; data: https://imgproxy.ra.co; media-src &#39;self&#39;; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>DeTour — 箱の評価 | Tokyo Peak Time</title>
 <meta name="description" content="鶯谷町の小箱。テクノ/ハウス系の夜が中心、音質は未確認">
@@ -27,8 +28,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://imgproxy.ra.co">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css?v=158a0e23">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicVenue","name":"DeTour","url":"https://tokyopeaktime.com/venues/detour/","image":"https://tokyopeaktime.com/static/og/venues/detour.png","address":{"@type":"PostalAddress","streetAddress":"東京都渋谷区鶯谷町8-8 B1","addressLocality":"Tokyo","addressCountry":"JP"},"sameAs":["https://www.instagram.com/detour.music.tokyo/"]}</script>
+<link rel="stylesheet" href="/static/site.css?v=21a04cf0">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicVenue","name":"DeTour","url":"https://tokyopeaktime.com/venues/detour/","image":"https://tokyopeaktime.com/static/og/venues/detour.png","address":{"@type":"PostalAddress","streetAddress":"東京都渋谷区鶯谷町8-8 B1","addressCountry":"JP"},"sameAs":["https://www.instagram.com/detour.music.tokyo/"]}</script>
 </head>
 <body>
 <a class="skip" href="#main">本文へ</a>
@@ -43,7 +44,7 @@
       <a href="/venues/" aria-current="page">箱</a>
       <a href="/criteria/">基準</a>
     </nav>
-    <a class="mast__lang" href="/en/venues/detour/" lang="en" hreflang="en">English</a>
+    <a class="mast__lang" href="/en/venues/detour/" lang="en" hreflang="en" data-carry>English</a>
     <button class="mast__toggle" type="button" aria-expanded="false" aria-controls="mast-nav">メニュー</button>
   </div>
 </header>
@@ -58,21 +59,127 @@
   <header class="vhero">
     <div class="vhero__art">
       <img class="vhero__poster" src="/static/posters/detour.svg" alt="" width="1200" height="630" fetchpriority="high" decoding="async">
-      <a class="vhero__logo vhero__logo--dark" href="https://www.instagram.com/detour.music.tokyo/" target="_blank" rel="noopener"><img src="/static/logos/detour.jpg" alt="DeTourのロゴ" decoding="async"></a>
+      <a class="vhero__logo vhero__logo--dark" href="https://www.instagram.com/detour.music.tokyo/" target="_blank" rel="noopener noreferrer"><img src="/static/logos/detour.jpg" alt="DeTourのロゴ" decoding="async"></a>
     </div>
     <div class="vh">
       <h1>DeTour</h1>
       <p class="vh__facts"><span class="tag">音楽型</span><span>小箱</span><span>渋谷</span></p>
-<p class="vh__teaser">鶯谷町の小箱。テクノ/ハウス系の夜が中心、音質は未確認</p>      <p class="vlinks">
-<a href="https://www.instagram.com/detour.music.tokyo/" target="_blank" rel="noopener">Instagram ↗</a>      </p>
-      <dl class="facts">
+<p class="vh__teaser">鶯谷町の小箱。テクノ/ハウス系の夜が中心、音質は未確認</p>      <dl class="facts">
         <dt>キャパ</dt><dd class="mono">—</dd>
-        <dt>エリア</dt><dd>渋谷 <span class="muted">（渋谷・鶯谷町（桜丘側））</span></dd>
-<dt>住所</dt><dd>東京都渋谷区鶯谷町8-8 B1 <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%B6%AF%E8%B0%B7%E7%94%BA8-8%20B1" target="_blank" rel="noopener">Google Maps で開く ↗</a></dd>        <dt>更新日</dt><dd class="mono">2026-10-14</dd>
-        <dt>確度</dt><dd>低</dd>
-      </dl>
+        <dt>エリア</dt><dd>渋谷 <span class="muted" lang="ja">（渋谷・鶯谷町（桜丘側））</span></dd>
+<dt>住所</dt><dd>東京都渋谷区鶯谷町8-8 B1 <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%B6%AF%E8%B0%B7%E7%94%BA8-8%20B1" target="_blank" rel="noopener noreferrer">Google Maps で開く ↗</a></dd>      </dl>
     </div>
   </header>
+
+  <section class="section vofficial" aria-labelledby="official-h">
+    <h2 id="official-h">公式サイト</h2>
+    <p class="vlinks">
+<a class="btn btn--out" href="https://www.instagram.com/detour.music.tokyo/" target="_blank" rel="noopener noreferrer">Instagram ↗<span class="dom">instagram.com</span></a>    </p>
+  </section>
+
+
+  <section class="section" aria-labelledby="upcoming-h">
+    <h2 id="upcoming-h">この箱の予定、30日分</h2>
+    <ul class="rows">
+<li class="ev reveal" data-tier="B" data-id="ev_9b454513c6f3">
+  <a class="ev__art" href="/events/ev_9b454513c6f3/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vOTU5NzI5ZWY3ZWVkZmQ1MzMxMDU0Zjk1ZTc5NTQzNGMwMjlmOTU1YS5qcGc" alt="DT TUESDAY" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-20">10.20</time> <span class="muted">火</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_9b454513c6f3/" data-carry>DT TUESDAY</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">DJ Warp · CKRN303 · ultramantra</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 19:00</span>    <span class="ev__price">¥1,000</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2559640" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_5935822cf1f2">
+  <a class="ev__art" href="/events/ev_5935822cf1f2/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vMDJlNzVkMmQyMjk2MTIwNzU1YmUwYjcyZjQxOGJmYWQ1MDFiM2ExNi5wbmc" alt="Individuality" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-21">10.21</time> <span class="muted">水</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_5935822cf1f2/" data-carry>Individuality</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">V-STYLE</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 19:00</span>    <span class="ev__price">¥1,000</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2551556" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_65791e5787d4">
+  <a class="ev__art" href="/events/ev_65791e5787d4/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNzZlMjNhYWNiNDBiYWIzMTdjNTI3MjU1ZDE5YWNkNTAwN2E1YmNiMC5qcGc" alt="meaningful" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-24">10.24</time> <span class="muted">土</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_65791e5787d4/" data-carry>meaningful</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=progressive-house#list" data-genre="progressive-house">Progressive House</a></p>
+<p class="ev__line muted">BEPPU · Nanlaze</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 17:00</span>    <span class="ev__price">¥2,000</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2562203" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_3f930f738e76">
+  <a class="ev__art" href="/events/ev_3f930f738e76/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZTdjZjVhYzVlM2E1YjhiMGZjNjczNDlmZjEzOTA3ZDgxMTc5ZDNmOC5qcGc" alt="TRANCE DT" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-25">10.25</time> <span class="muted">日</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_3f930f738e76/" data-carry>TRANCE DT</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=trance#list" data-genre="trance">Trance</a></p>
+<p class="ev__line muted">BEPPU · Jay Turio · NDK</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 17:00</span>    <span class="ev__price">¥2,000</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2562206" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_f5f96586d3e1">
+  <a class="ev__art" href="/events/ev_f5f96586d3e1/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZWQwMjBjODE3NmFlYjQ4YTBlYzYzNDcxMDhkYWJmMWFhMzk0NjZjYS5wbmc" alt="光明街-Guang Ming Jie-" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-27">10.27</time> <span class="muted">火</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_f5f96586d3e1/" data-carry>光明街-Guang Ming Jie-</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">CATRONICA · NDK</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 18:00</span>    <span class="ev__price">¥2,000</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2551559" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_1549d1ece901">
+  <a class="ev__art" href="/events/ev_1549d1ece901/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/detour.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vMmMyNDg5OTMwMjhhYTRiOGIyOWUyNDgyZTlkMzIzZmFiMDlmMjMyNS5qcGc" alt="SLXZZA (SCHRANZ / HARDCORE)" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/detour.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-11-05">11.05</time> <span class="muted">木</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/events/ev_1549d1ece901/" data-carry>SLXZZA (SCHRANZ / HARDCORE)</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/?genre=hardcore#list" data-genre="hardcore">Hardcore</a><a class="gtag" href="/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">ASIN · bloodymarii · YOXIKI</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 19:00</span>    <span class="ev__price">¥1,500</span>
+<a class="ev__out ev__out--ra" href="https://ra.co/events/2556590" target="_blank" rel="noopener noreferrer">RA で見る ↗<span class="dom">ra.co</span></a>
+  </div>
+</li>
+    </ul>
+    <p class="credit">画像: Resident Advisor（主催者提供）</p>
+  </section>
 
   <section class="section prose">
     <h2>この箱の性格</h2>
@@ -88,20 +195,14 @@
       <dt>客層</dt><dd>—</dd>
       <dt>料金</dt><dd>—</dd>
       <dt>ドレスコード</dt><dd>—</dd>
+      <dt>更新日</dt><dd class="mono">2026-10-14</dd>
+      <dt>確度</dt><dd>低</dd>
     </dl>
     <p class="vlinks">
       <a href="/criteria/">この評価について</a>
       <a href="mailto:hayashi@foruniverse.jp?subject=[訂正] DeTour">訂正・異議申立</a>
     </p>
     <p class="notice">20歳未満は入場不可・ID必須</p>
-  </section>
-
-  <section class="section">
-    <h2>この箱の夜、30日分</h2>
-    <div class="empty">
-      <p>この箱の今後30日に、載せる夜はありません。</p>
-      <p><a class="btn" href="/">今週 →</a></p>
-    </div>
   </section>
 </div>
 </main>
@@ -130,6 +231,7 @@
     <button class="btn" type="button" data-gate="leave">戻る</button>
   </div>
 </dialog>
-<script src="/static/site.js?v=158a0e23" defer></script>
+<script type="application/json" id="filter-ids">{"area":["aoyama-omotesando","daytrip","ebisu-daikanyama-nakameguro","expedition","ginza-shinbashi","ikebukuro","roppongi","shibuya","shimokitazawa-koenji","shinjuku","suburb","tokyo-other"],"type":["rave","festival","club","day"],"g":["techno","house","bass-dnb","hiphop-rnb","disco-funk","trance-psy","edm-pop","experimental"],"genre":["acid","afro-house","afro-tech","afrobeat","afrobeats","amapiano","ambient","baile-funk","balearic","ballroom","bass","breakbeat","breakcore","broken-beat","classical","dancehall","deep-house","dembow","disco","downtempo","drill","drone","drum-and-bass","dub","dub-techno","dubstep","ebm","edm","electro","electronica","experimental","footwork","funk-soul","gabber","garage","ghetto-tech","gqom","grime","guaracha","hard-drum","hard-techno","hardcore","hip-hop","house","idm","industrial","italo-disco","jazz","jungle","krautrock","kuduro","kwaito","latin-bass","minimal","minimal-techno","neo-perreo","new-wave","noise","pop","post-punk","progressive-house","psytrance","reggaeton","rio-funk","rnb","singeli","tech-house","techno","trance","uk-funky","vaporwave"],"fam_of":{"acid":"techno","afro-house":"house","afro-tech":"house","afrobeat":"disco-funk","afrobeats":"hiphop-rnb","amapiano":"house","ambient":"experimental","baile-funk":"bass-dnb","balearic":"disco-funk","ballroom":"house","bass":"bass-dnb","breakbeat":"bass-dnb","breakcore":"experimental","broken-beat":"house","dancehall":"hiphop-rnb","deep-house":"house","dembow":"hiphop-rnb","disco":"disco-funk","drill":"hiphop-rnb","drone":"experimental","drum-and-bass":"bass-dnb","dub":"experimental","dub-techno":"techno","dubstep":"bass-dnb","ebm":"techno","edm":"edm-pop","electro":"techno","electronica":"experimental","experimental":"experimental","footwork":"bass-dnb","funk-soul":"disco-funk","gabber":"techno","garage":"house","ghetto-tech":"bass-dnb","gqom":"house","grime":"bass-dnb","guaracha":"edm-pop","hard-drum":"techno","hard-techno":"techno","hardcore":"techno","hip-hop":"hiphop-rnb","house":"house","idm":"experimental","industrial":"techno","italo-disco":"disco-funk","jungle":"bass-dnb","kuduro":"bass-dnb","kwaito":"house","latin-bass":"bass-dnb","minimal":"techno","minimal-techno":"techno","neo-perreo":"hiphop-rnb","noise":"experimental","pop":"edm-pop","progressive-house":"house","psytrance":"trance-psy","reggaeton":"hiphop-rnb","rio-funk":"bass-dnb","rnb":"hiphop-rnb","singeli":"bass-dnb","tech-house":"house","techno":"techno","trance":"trance-psy","uk-funky":"bass-dnb"}}</script>
+<script src="/static/site.js?v=21a04cf0" defer></script>
 </body>
 </html>

@@ -3,9 +3,1054 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-      { "key": "X-Frame-Options", "value": "DENY" } ] }
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/events/20261015-zoey808-tokyo-pop-up",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261015-zoey808-tokyo-pop-up",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261025-force-festival-presents-official-after-party-magic-city-toky",
+      "destination": "/events/ev_511b5a5c18bc",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261025-force-festival-presents-official-after-party-magic-city-toky",
+      "destination": "/en/events/ev_511b5a5c18bc",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261030-o-d-o-presents-eldon-jeebanoff-in-tokyo",
+      "destination": "/events/ev_0ecde30b57c1",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261030-o-d-o-presents-eldon-jeebanoff-in-tokyo",
+      "destination": "/en/events/ev_0ecde30b57c1",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261031-photoism-kevin-moonfree-childrelease-party-in-tokyo",
+      "destination": "/events/ev_8553ad06f14a",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261031-photoism-kevin-moonfree-childrelease-party-in-tokyo",
+      "destination": "/en/events/ev_8553ad06f14a",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261108-kingsman-tokyo-10th-anniversary-night",
+      "destination": "/events/ev_9b866648ef17",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261108-kingsman-tokyo-10th-anniversary-night",
+      "destination": "/en/events/ev_9b866648ef17",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261115-beginning-presents-lyny-tokyo-show",
+      "destination": "/events/ev_4167791ea1f4",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261115-beginning-presents-lyny-tokyo-show",
+      "destination": "/en/events/ev_4167791ea1f4",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261121-11-21-tsha-japan-tour-tokyo",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261121-11-21-tsha-japan-tour-tokyo",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261128-silva-bumpa",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261128-silva-bumpa",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261201-aya-vmo-japan-tour-2026",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261201-aya-vmo-japan-tour-2026",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261203-dvbbs-dj-set",
+      "destination": "/venues/v2-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261203-dvbbs-dj-set",
+      "destination": "/en/venues/v2-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261212-ivy-lab-last-tour",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261212-ivy-lab-last-tour",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/20261219-neuro-hack-vol-3-1st-anniversary",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/20261219-neuro-hack-vol-3-1st-anniversary",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/2376846",
+      "destination": "/events/ev_5a681cb8d0f9",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2376846",
+      "destination": "/en/events/ev_5a681cb8d0f9",
+      "permanent": true
+    },
+    {
+      "source": "/events/2477727",
+      "destination": "/venues/oba-camp-village",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2477727",
+      "destination": "/en/venues/oba-camp-village",
+      "permanent": true
+    },
+    {
+      "source": "/events/2488202",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2488202",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/2490363",
+      "destination": "/events/ev_eb4670a6153d",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2490363",
+      "destination": "/en/events/ev_eb4670a6153d",
+      "permanent": true
+    },
+    {
+      "source": "/events/2503952",
+      "destination": "/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2503952",
+      "destination": "/en/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/events/2506197",
+      "destination": "/venues/zerotokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2506197",
+      "destination": "/en/venues/zerotokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/2513096",
+      "destination": "/venues/bridge-shibuya",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2513096",
+      "destination": "/en/venues/bridge-shibuya",
+      "permanent": true
+    },
+    {
+      "source": "/events/2514307",
+      "destination": "/venues/zerotokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2514307",
+      "destination": "/en/venues/zerotokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/2516349",
+      "destination": "/venues/midnight-east",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2516349",
+      "destination": "/en/venues/midnight-east",
+      "permanent": true
+    },
+    {
+      "source": "/events/2520885",
+      "destination": "/events/ev_809b183a9f02",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2520885",
+      "destination": "/en/events/ev_809b183a9f02",
+      "permanent": true
+    },
+    {
+      "source": "/events/2522407",
+      "destination": "/events/ev_79fff6445390",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2522407",
+      "destination": "/en/events/ev_79fff6445390",
+      "permanent": true
+    },
+    {
+      "source": "/events/2522856",
+      "destination": "/events/ev_aa28c3e6eff2",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2522856",
+      "destination": "/en/events/ev_aa28c3e6eff2",
+      "permanent": true
+    },
+    {
+      "source": "/events/2524377",
+      "destination": "/venues/midnight-east",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2524377",
+      "destination": "/en/venues/midnight-east",
+      "permanent": true
+    },
+    {
+      "source": "/events/2525103",
+      "destination": "/venues/or",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2525103",
+      "destination": "/en/venues/or",
+      "permanent": true
+    },
+    {
+      "source": "/events/2525848",
+      "destination": "/events/ev_0bb82d98afd9",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2525848",
+      "destination": "/en/events/ev_0bb82d98afd9",
+      "permanent": true
+    },
+    {
+      "source": "/events/2526187",
+      "destination": "/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2526187",
+      "destination": "/en/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/events/2526932",
+      "destination": "/venues/vent",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2526932",
+      "destination": "/en/venues/vent",
+      "permanent": true
+    },
+    {
+      "source": "/events/2526980",
+      "destination": "/venues/vent",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2526980",
+      "destination": "/en/venues/vent",
+      "permanent": true
+    },
+    {
+      "source": "/events/2529265",
+      "destination": "/events/ev_ac36c6e50243",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2529265",
+      "destination": "/en/events/ev_ac36c6e50243",
+      "permanent": true
+    },
+    {
+      "source": "/events/2529281",
+      "destination": "/events/ev_66cdacf4366f",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2529281",
+      "destination": "/en/events/ev_66cdacf4366f",
+      "permanent": true
+    },
+    {
+      "source": "/events/2530055",
+      "destination": "/events/ev_5bd74ebf5325",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2530055",
+      "destination": "/en/events/ev_5bd74ebf5325",
+      "permanent": true
+    },
+    {
+      "source": "/events/2530141",
+      "destination": "/events/ev_d9811d5a2a74",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2530141",
+      "destination": "/en/events/ev_d9811d5a2a74",
+      "permanent": true
+    },
+    {
+      "source": "/events/2531582",
+      "destination": "/events/ev_f4b1dd2c0666",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2531582",
+      "destination": "/en/events/ev_f4b1dd2c0666",
+      "permanent": true
+    },
+    {
+      "source": "/events/2532751",
+      "destination": "/events/ev_bd781d4d0d74",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2532751",
+      "destination": "/en/events/ev_bd781d4d0d74",
+      "permanent": true
+    },
+    {
+      "source": "/events/2532771",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2532771",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2532800",
+      "destination": "/venues/aoyama-hachi",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2532800",
+      "destination": "/en/venues/aoyama-hachi",
+      "permanent": true
+    },
+    {
+      "source": "/events/2532801",
+      "destination": "/venues/debris",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2532801",
+      "destination": "/en/venues/debris",
+      "permanent": true
+    },
+    {
+      "source": "/events/2532821",
+      "destination": "/events/ev_fb02bd71219a",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2532821",
+      "destination": "/en/events/ev_fb02bd71219a",
+      "permanent": true
+    },
+    {
+      "source": "/events/2534014",
+      "destination": "/events/ev_0df0abf90e54",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2534014",
+      "destination": "/en/events/ev_0df0abf90e54",
+      "permanent": true
+    },
+    {
+      "source": "/events/2534915",
+      "destination": "/events/ev_4174a957b6ed",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2534915",
+      "destination": "/en/events/ev_4174a957b6ed",
+      "permanent": true
+    },
+    {
+      "source": "/events/2537185",
+      "destination": "/events/ev_6cd9c09b7b9e",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2537185",
+      "destination": "/en/events/ev_6cd9c09b7b9e",
+      "permanent": true
+    },
+    {
+      "source": "/events/2537555",
+      "destination": "/events/ev_5d72617ec865",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2537555",
+      "destination": "/en/events/ev_5d72617ec865",
+      "permanent": true
+    },
+    {
+      "source": "/events/2537808",
+      "destination": "/events/ev_7225ac2fd9a2",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2537808",
+      "destination": "/en/events/ev_7225ac2fd9a2",
+      "permanent": true
+    },
+    {
+      "source": "/events/2538313",
+      "destination": "/events/ev_aaba167f17bd",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2538313",
+      "destination": "/en/events/ev_aaba167f17bd",
+      "permanent": true
+    },
+    {
+      "source": "/events/2538391",
+      "destination": "/events/ev_13ab0bdccbef",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2538391",
+      "destination": "/en/events/ev_13ab0bdccbef",
+      "permanent": true
+    },
+    {
+      "source": "/events/2539495",
+      "destination": "/events/ev_c752c607354b",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2539495",
+      "destination": "/en/events/ev_c752c607354b",
+      "permanent": true
+    },
+    {
+      "source": "/events/2540037",
+      "destination": "/events/ev_6cd8cc9d7089",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2540037",
+      "destination": "/en/events/ev_6cd8cc9d7089",
+      "permanent": true
+    },
+    {
+      "source": "/events/2541348",
+      "destination": "/events/ev_f57a2961e828",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2541348",
+      "destination": "/en/events/ev_f57a2961e828",
+      "permanent": true
+    },
+    {
+      "source": "/events/2542087",
+      "destination": "/venues/r-lounge",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2542087",
+      "destination": "/en/venues/r-lounge",
+      "permanent": true
+    },
+    {
+      "source": "/events/2542644",
+      "destination": "/events/ev_fc15fa399f4c",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2542644",
+      "destination": "/en/events/ev_fc15fa399f4c",
+      "permanent": true
+    },
+    {
+      "source": "/events/2544697",
+      "destination": "/venues/z-maruyama",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2544697",
+      "destination": "/en/venues/z-maruyama",
+      "permanent": true
+    },
+    {
+      "source": "/events/2544771",
+      "destination": "/venues/solfa",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2544771",
+      "destination": "/en/venues/solfa",
+      "permanent": true
+    },
+    {
+      "source": "/events/2544780",
+      "destination": "/events/ev_5f18257e756a",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2544780",
+      "destination": "/en/events/ev_5f18257e756a",
+      "permanent": true
+    },
+    {
+      "source": "/events/2544852",
+      "destination": "/events/ev_45fdf7948920",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2544852",
+      "destination": "/en/events/ev_45fdf7948920",
+      "permanent": true
+    },
+    {
+      "source": "/events/2544889",
+      "destination": "/events/ev_4e5bc362256f",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2544889",
+      "destination": "/en/events/ev_4e5bc362256f",
+      "permanent": true
+    },
+    {
+      "source": "/events/2545238",
+      "destination": "/events/ev_02a982899784",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2545238",
+      "destination": "/en/events/ev_02a982899784",
+      "permanent": true
+    },
+    {
+      "source": "/events/2545615",
+      "destination": "/events/ev_5c18286e66a5",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2545615",
+      "destination": "/en/events/ev_5c18286e66a5",
+      "permanent": true
+    },
+    {
+      "source": "/events/2545619",
+      "destination": "/events/ev_6d5d531ee021",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2545619",
+      "destination": "/en/events/ev_6d5d531ee021",
+      "permanent": true
+    },
+    {
+      "source": "/events/2545879",
+      "destination": "/venues/womb",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2545879",
+      "destination": "/en/venues/womb",
+      "permanent": true
+    },
+    {
+      "source": "/events/2546214",
+      "destination": "/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2546214",
+      "destination": "/en/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/events/2546292",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2546292",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2546992",
+      "destination": "/events/ev_c5ff6481aa0f",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2546992",
+      "destination": "/en/events/ev_c5ff6481aa0f",
+      "permanent": true
+    },
+    {
+      "source": "/events/2546999",
+      "destination": "/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2546999",
+      "destination": "/en/venues/circus-tokyo",
+      "permanent": true
+    },
+    {
+      "source": "/events/2547008",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2547008",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2547616",
+      "destination": "/events/ev_26d10497ebf8",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2547616",
+      "destination": "/en/events/ev_26d10497ebf8",
+      "permanent": true
+    },
+    {
+      "source": "/events/2548025",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2548025",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2548423",
+      "destination": "/venues/enter-shibuya",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2548423",
+      "destination": "/en/venues/enter-shibuya",
+      "permanent": true
+    },
+    {
+      "source": "/events/2548910",
+      "destination": "/events/ev_6ddfc92dcba7",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2548910",
+      "destination": "/en/events/ev_6ddfc92dcba7",
+      "permanent": true
+    },
+    {
+      "source": "/events/2550017",
+      "destination": "/events/ev_64459e1362dd",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2550017",
+      "destination": "/en/events/ev_64459e1362dd",
+      "permanent": true
+    },
+    {
+      "source": "/events/2550103",
+      "destination": "/venues/womb",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2550103",
+      "destination": "/en/venues/womb",
+      "permanent": true
+    },
+    {
+      "source": "/events/2550857",
+      "destination": "/events/ev_1db2682226fc",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2550857",
+      "destination": "/en/events/ev_1db2682226fc",
+      "permanent": true
+    },
+    {
+      "source": "/events/2551561",
+      "destination": "/venues/r-lounge",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2551561",
+      "destination": "/en/venues/r-lounge",
+      "permanent": true
+    },
+    {
+      "source": "/events/2551862",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2551862",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2552091",
+      "destination": "/events/ev_702af8e200fb",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2552091",
+      "destination": "/en/events/ev_702af8e200fb",
+      "permanent": true
+    },
+    {
+      "source": "/events/2552440",
+      "destination": "/events/ev_354a84c4a91c",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2552440",
+      "destination": "/en/events/ev_354a84c4a91c",
+      "permanent": true
+    },
+    {
+      "source": "/events/2552447",
+      "destination": "/events/ev_31bebe3e5663",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2552447",
+      "destination": "/en/events/ev_31bebe3e5663",
+      "permanent": true
+    },
+    {
+      "source": "/events/2552802",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2552802",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2553612",
+      "destination": "/events/ev_fe87ebfc94ef",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2553612",
+      "destination": "/en/events/ev_fe87ebfc94ef",
+      "permanent": true
+    },
+    {
+      "source": "/events/2553639",
+      "destination": "/events/ev_40f354cdd62e",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2553639",
+      "destination": "/en/events/ev_40f354cdd62e",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554218",
+      "destination": "/events/ev_7f7335083f44",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554218",
+      "destination": "/en/events/ev_7f7335083f44",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554222",
+      "destination": "/events/ev_337b6ba308d5",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554222",
+      "destination": "/en/events/ev_337b6ba308d5",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554226",
+      "destination": "/events/ev_6a538540e431",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554226",
+      "destination": "/en/events/ev_6a538540e431",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554231",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554231",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554632",
+      "destination": "/venues/oath",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554632",
+      "destination": "/en/venues/oath",
+      "permanent": true
+    },
+    {
+      "source": "/events/2554736",
+      "destination": "/events/ev_c8ca18dfe8ec",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2554736",
+      "destination": "/en/events/ev_c8ca18dfe8ec",
+      "permanent": true
+    },
+    {
+      "source": "/events/2555317",
+      "destination": "/events/ev_564f61a7c9f8",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2555317",
+      "destination": "/en/events/ev_564f61a7c9f8",
+      "permanent": true
+    },
+    {
+      "source": "/events/2555457",
+      "destination": "/events/ev_db961b38c558",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2555457",
+      "destination": "/en/events/ev_db961b38c558",
+      "permanent": true
+    },
+    {
+      "source": "/events/2556022",
+      "destination": "/events/ev_ca87a46e7bbe",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2556022",
+      "destination": "/en/events/ev_ca87a46e7bbe",
+      "permanent": true
+    },
+    {
+      "source": "/events/2556548",
+      "destination": "/events/ev_2f495e44bf86",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2556548",
+      "destination": "/en/events/ev_2f495e44bf86",
+      "permanent": true
+    },
+    {
+      "source": "/events/2556630",
+      "destination": "/venues/or",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2556630",
+      "destination": "/en/venues/or",
+      "permanent": true
+    },
+    {
+      "source": "/events/2556646",
+      "destination": "/events/ev_86e812518473",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2556646",
+      "destination": "/en/events/ev_86e812518473",
+      "permanent": true
+    },
+    {
+      "source": "/events/2557811",
+      "destination": "/events/ev_5f85e229660e",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2557811",
+      "destination": "/en/events/ev_5f85e229660e",
+      "permanent": true
+    },
+    {
+      "source": "/events/2558216",
+      "destination": "/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2558216",
+      "destination": "/en/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/events/2558218",
+      "destination": "/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2558218",
+      "destination": "/en/venues/detour",
+      "permanent": true
+    },
+    {
+      "source": "/events/2559013",
+      "destination": "/events/ev_137f1b83ee5e",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2559013",
+      "destination": "/en/events/ev_137f1b83ee5e",
+      "permanent": true
+    },
+    {
+      "source": "/events/2560823",
+      "destination": "/events/ev_fd67cee8437d",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2560823",
+      "destination": "/en/events/ev_fd67cee8437d",
+      "permanent": true
+    },
+    {
+      "source": "/events/2560926",
+      "destination": "/events/ev_7c85b76af2d8",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2560926",
+      "destination": "/en/events/ev_7c85b76af2d8",
+      "permanent": true
+    },
+    {
+      "source": "/events/2560966",
+      "destination": "/events/ev_c0ec01e5a649",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2560966",
+      "destination": "/en/events/ev_c0ec01e5a649",
+      "permanent": true
+    },
+    {
+      "source": "/events/2561486",
+      "destination": "/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2561486",
+      "destination": "/en/venues/clubasia",
+      "permanent": true
+    },
+    {
+      "source": "/events/2562167",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2562167",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/events/2562891",
+      "destination": "/events/ev_52ee60cf1265",
+      "permanent": true
+    },
+    {
+      "source": "/en/events/2562891",
+      "destination": "/en/events/ev_52ee60cf1265",
+      "permanent": true
+    }
   ]
 }

@@ -2,16 +2,17 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src &#39;self&#39; data: https://imgproxy.ra.co; media-src &#39;self&#39;; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>箱一覧 — Tokyo Peak Time</title>
-<meta name="description" content="東京のクラブをエリアごとに。音楽型・パーティ型・混合のラベル、規模、キャパ、今後のS/Aイベント数。">
+<meta name="description" content="東京のクラブをエリアごとに。音楽型・パーティ型・混合のラベル、規模、キャパ、定例パーティ、今後のS/Aイベント数。">
 <link rel="canonical" href="https://tokyopeaktime.com/venues/">
 <link rel="alternate" hreflang="ja" href="https://tokyopeaktime.com/venues/">
 <link rel="alternate" hreflang="en" href="https://tokyopeaktime.com/en/venues/">
 <link rel="alternate" hreflang="x-default" href="https://tokyopeaktime.com/venues/">
 <meta property="og:site_name" content="Tokyo Peak Time">
 <meta property="og:title" content="箱一覧 — Tokyo Peak Time">
-<meta property="og:description" content="東京のクラブをエリアごとに。音楽型・パーティ型・混合のラベル、規模、キャパ、今後のS/Aイベント数。">
+<meta property="og:description" content="東京のクラブをエリアごとに。音楽型・パーティ型・混合のラベル、規模、キャパ、定例パーティ、今後のS/Aイベント数。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tokyopeaktime.com/venues/">
 <meta property="og:image" content="https://tokyopeaktime.com/static/og/site.png">
@@ -26,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css?v=158a0e23">
+<link rel="stylesheet" href="/static/site.css?v=21a04cf0">
 </head>
 <body>
 <a class="skip" href="#main">本文へ</a>
@@ -41,7 +42,7 @@
       <a href="/venues/" aria-current="page">箱</a>
       <a href="/criteria/">基準</a>
     </nav>
-    <a class="mast__lang" href="/en/venues/" lang="en" hreflang="en">English</a>
+    <a class="mast__lang" href="/en/venues/" lang="en" hreflang="en" data-carry>English</a>
     <button class="mast__toggle" type="button" aria-expanded="false" aria-controls="mast-nav">メニュー</button>
   </div>
 </header>
@@ -72,7 +73,7 @@
             <p class="vcard__name"><a href="/venues/midnight-east/">MIDNIGHT EAST</a></p>
 <p class="vcard__teaser">O-EASTと東間屋が深夜に合体。音優先、常設ではない</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>大箱</span><span>キャパ 1300</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 2</p>
+          <p class="vcard__count">今後のS/A 4</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/harlem/" aria-hidden="true" tabindex="-1">
@@ -93,7 +94,7 @@
             <p class="vcard__name"><a href="/venues/womb/">WOMB</a></p>
 <p class="vcard__teaser">円山町、キャパ1000。海外ゲスト中心のテクノ/ハウス</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>大箱</span><span>キャパ 1000</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 8</p>
+          <p class="vcard__count">今後のS/A 17</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/atom-tokyo/" aria-hidden="true" tabindex="-1">
@@ -115,7 +116,7 @@
             <p class="vcard__name"><a href="/venues/clubasia/">clubasia</a></p>
 <p class="vcard__teaser">1996年開業の円山町の老舗、ライブとパーティーが混在</p>            <p class="vcard__facts"><span class="tag">混合</span><span>中箱</span><span>キャパ 600</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 2</p>
+          <p class="vcard__count">今後のS/A 0</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/s-nightclub/" aria-hidden="true" tabindex="-1">
@@ -137,7 +138,7 @@
             <p class="vcard__name"><a href="/venues/z-maruyama/">Z Maruyama</a></p>
 <p class="vcard__teaser">円山町の小箱。WOMBチームが開いた、踊るための場</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 200</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 6</p>
+          <p class="vcard__count">今後のS/A 1</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/enter-shibuya/" aria-hidden="true" tabindex="-1">
@@ -171,17 +172,6 @@
 <p class="vcard__teaser">道玄坂の100人規模DJバー。オーディオ志向の音作り</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 100</span></p>
           </div>
           <p class="vcard__count">今後のS/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/camelot/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/camelot.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/camelot.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/camelot/">Camelot</a></p>
-<p class="vcard__teaser">神南の大箱。夜営業は休止中、10/17から土曜のみ再開</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span><span>キャパ 3</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 1</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/another-dimension/" aria-hidden="true" tabindex="-1">
@@ -228,6 +218,17 @@
           <p class="vcard__count">今後のS/A 0</p>
         </li>
         <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/camelot/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/camelot.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/camelot.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/camelot/">Camelot</a></p>
+<p class="vcard__teaser">神南の大箱。夜営業は休止中、10/17から土曜のみ再開</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 1</p>
+        </li>
+        <li class="vcard reveal">
           <a class="vcard__art" href="/venues/circus-tokyo/" aria-hidden="true" tabindex="-1">
             <img class="vcard__poster" src="/static/posters/circus-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
             <span class="vcard__logo"><img src="/static/logos/circus-tokyo.png" alt="" loading="lazy" decoding="async"></span>
@@ -236,7 +237,7 @@
             <p class="vcard__name"><a href="/venues/circus-tokyo/">CIRCUS Tokyo</a></p>
 <p class="vcard__teaser">渋谷・明治通り側のアンダーグラウンド箱。11周年</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>中箱</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 10</p>
+          <p class="vcard__count">今後のS/A 5</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/detour/" aria-hidden="true" tabindex="-1">
@@ -313,7 +314,7 @@
             <p class="vcard__name"><a href="/venues/r-lounge/">R Lounge</a></p>
 <p class="vcard__teaser">宇田川町の貸し箱。6Fテクノ/ハウス、7Fヒップホップ</p>            <p class="vcard__facts"><span class="tag">混合</span><span>中箱</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 2</p>
+          <p class="vcard__count">今後のS/A 1</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/the-room/" aria-hidden="true" tabindex="-1">
@@ -363,7 +364,7 @@
             <p class="vcard__name"><a href="/venues/zerotokyo/">ZEROTOKYO</a></p>
 <p class="vcard__teaser">歌舞伎町タワー地下の1500人箱。夜ごとに客層が変わる</p>            <p class="vcard__facts"><span class="tag">混合</span><span>大箱</span><span>キャパ 1500</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 2</p>
+          <p class="vcard__count">今後のS/A 8</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/t2-shinjuku/" aria-hidden="true" tabindex="-1">
@@ -373,7 +374,7 @@
           <div class="vcard__body">
             <p class="vcard__name"><a href="/venues/t2-shinjuku/">T2 Shinjuku</a></p>
 <p class="vcard__teaser">西武新宿駅前。国内最大規模を自称する1000人箱</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span><span>キャパ 1000</span></p>
-          </div>
+<p class="vcard__regular"><span class="tag">定例</span> 毎週月 22:00〜 · T2 MONDAY / 毎週火 22:00〜 · T2 TUESDAY …</p>          </div>
           <p class="vcard__count">今後のS/A 0</p>
         </li>
         <li class="vcard reveal">
@@ -384,8 +385,8 @@
           <div class="vcard__body">
             <p class="vcard__name"><a href="/venues/warp-shinjuku/">WARP SHINJUKU</a></p>
 <p class="vcard__teaser">新宿歌舞伎町の4フロア大箱、K-POPからVIP席まで</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span><span>キャパ 1000</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
+<p class="vcard__regular"><span class="tag">定例</span> 毎週月 21:00〜 · EMOT / 第2・4月曜 00:00〜 · FIXER …</p>          </div>
+          <p class="vcard__count">今後のS/A 1</p>
         </li>
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/aisotope-lounge/" aria-hidden="true" tabindex="-1">
@@ -412,7 +413,7 @@
     </section>
     <section class="area" aria-labelledby="area-3">
       <header class="area__head area__head--strip">
-        <h2 id="area-3" class="area__name">六本木<span class="area__n mono">6</span></h2>
+        <h2 id="area-3" class="area__name">六本木・西麻布<span class="area__n mono">7</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
@@ -435,6 +436,17 @@
             <p class="vcard__name"><a href="/venues/cube/">Cube</a></p>
 <p class="vcard__teaser">六本木の地下イベントスペース。企画次第で夜の色が変わる</p>            <p class="vcard__facts"><span class="tag">混合</span><span>小箱</span><span>キャパ 100</span></p>
           </div>
+          <p class="vcard__count">今後のS/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/1-oak-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/1-oak-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/1-oak-tokyo.webp" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/1-oak-tokyo/">1 OAK TOKYO</a></p>
+<p class="vcard__teaser">NY発のラグジュアリークラブ。六本木から麻布十番へ移転</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>中箱</span></p>
+<p class="vcard__regular"><span class="tag">定例</span> 毎週木 23:00〜 · Bright Lights Big City x Utopia / 毎週金 23:00〜 · The Blueprint …</p>          </div>
           <p class="vcard__count">今後のS/A 0</p>
         </li>
         <li class="vcard reveal">
@@ -477,34 +489,37 @@
           <div class="vcard__body">
             <p class="vcard__name"><a href="/venues/v2-tokyo/">V2 TOKYO</a></p>
 <p class="vcard__teaser">六本木の定番社交型の箱。ダンサーショーと夜景</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>中箱</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 1</p>
+<p class="vcard__regular"><span class="tag">定例</span> 毎週月 21:00〜 · AERIAL / 毎週火 21:00〜 · FUSE …</p>          </div>
+          <p class="vcard__count">今後のS/A 0</p>
         </li>
       </ul>
     </section>
     <section class="area" aria-labelledby="area-4">
       <header class="area__head area__head--strip">
-        <h2 id="area-4" class="area__name">麻布十番<span class="area__n mono">1</span></h2>
+        <h2 id="area-4" class="area__name">青山・表参道<span class="area__n mono">4</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/1-oak-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/1-oak-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/1-oak-tokyo.webp" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/venues/vent/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/vent.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/1-oak-tokyo/">1 OAK TOKYO</a></p>
-<p class="vcard__teaser">NY発のラグジュアリークラブ。六本木から麻布十番へ移転</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>中箱</span></p>
+            <p class="vcard__name"><a href="/venues/vent/">VENT</a></p>
+<p class="vcard__teaser">VENT、音重視の2ルームで選りすぐりのハウス・テクノ</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>中箱</span><span>キャパ 400</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 7</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/aoyama-hachi/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/aoyama-hachi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo vcard__logo--plate"><img src="/static/logos/aoyama-hachi.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/aoyama-hachi/">Aoyama Hachi</a></p>
+<p class="vcard__teaser">1995年開業、青山の3フロア箱。始発から昼まで続く朝蜂</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
           </div>
           <p class="vcard__count">今後のS/A 0</p>
         </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-5">
-      <header class="area__head area__head--strip">
-        <h2 id="area-5" class="area__name">原宿<span class="area__n mono">2</span></h2>
-      </header>
-      <ul class="vlist">
         <li class="vcard reveal">
           <a class="vcard__art" href="/venues/bonobo/" aria-hidden="true" tabindex="-1">
             <img class="vcard__poster" src="/static/posters/bonobo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
@@ -528,44 +543,9 @@
         </li>
       </ul>
     </section>
-    <section class="area" aria-labelledby="area-6">
+    <section class="area" aria-labelledby="area-5">
       <header class="area__head area__head--strip">
-        <h2 id="area-6" class="area__name">南青山<span class="area__n mono">1</span></h2>
-      </header>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/vent/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/vent.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/vent/">VENT</a></p>
-<p class="vcard__teaser">VENT、音重視の2ルームで選りすぐりのハウス・テクノ</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>中箱</span><span>キャパ 400</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 9</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-7">
-      <header class="area__head area__head--strip">
-        <h2 id="area-7" class="area__name">青山<span class="area__n mono">1</span></h2>
-      </header>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/aoyama-hachi/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/aoyama-hachi.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo vcard__logo--plate"><img src="/static/logos/aoyama-hachi.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/aoyama-hachi/">Aoyama Hachi</a></p>
-<p class="vcard__teaser">1995年開業、青山の3フロア箱。始発から昼まで続く朝蜂</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-8">
-      <header class="area__head area__head--strip">
-        <h2 id="area-8" class="area__name">代官山<span class="area__n mono">3</span></h2>
+        <h2 id="area-5" class="area__name">恵比寿・代官山・中目黒<span class="area__n mono">5</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
@@ -590,6 +570,16 @@
           <p class="vcard__count">今後のS/A 0</p>
         </li>
         <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/solfa/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/solfa.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/solfa/">Solfa</a></p>
+<p class="vcard__teaser">中目黒の小箱。フロア約70人、2008年から続く音箱</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 70</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 0</p>
+        </li>
+        <li class="vcard reveal">
           <a class="vcard__art" href="/venues/debris/" aria-hidden="true" tabindex="-1">
             <img class="vcard__poster" src="/static/posters/debris.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
             <span class="vcard__logo"><img src="/static/logos/d-bris.png" alt="" loading="lazy" decoding="async"></span>
@@ -597,23 +587,6 @@
           <div class="vcard__body">
             <p class="vcard__name"><a href="/venues/debris/">Débris</a></p>
 <p class="vcard__teaser">Zipangのクルーが2018年に作った代官山の隠れ家</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-9">
-      <header class="area__head area__head--strip">
-        <h2 id="area-9" class="area__name">中目黒<span class="area__n mono">2</span></h2>
-      </header>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/solfa/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/solfa.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/solfa/">Solfa</a></p>
-<p class="vcard__teaser">中目黒の小箱。フロア約70人、2008年から続く音箱</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 70</span></p>
           </div>
           <p class="vcard__count">今後のS/A 0</p>
         </li>
@@ -630,37 +603,27 @@
         </li>
       </ul>
     </section>
-    <section class="area" aria-labelledby="area-10">
+    <section class="area" aria-labelledby="area-6">
       <header class="area__head area__head--strip">
-        <h2 id="area-10" class="area__name">下北沢<span class="area__n mono">2</span></h2>
+        <h2 id="area-6" class="area__name">銀座・新橋<span class="area__n mono">1</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/counter-club/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/counter-club.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/counter-club.svg" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/venues/zouk-tokyo/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/zouk-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/zouk-tokyo.png" alt="" loading="lazy" decoding="async"></span>
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/counter-club/">COUNTER CLUB</a></p>
-<p class="vcard__teaser">下北沢の音楽バー。田口音響の音でハウス/ディスコの朝へ</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
+            <p class="vcard__name"><a href="/venues/zouk-tokyo/">Zouk Tokyo</a></p>
+<p class="vcard__teaser">銀座でVIPテーブル主体の盛り上がりパーティー</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span><span>キャパ 1000</span></p>
           </div>
-          <p class="vcard__count">今後のS/A 0</p>
-        </li>
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/spread/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/spread.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/spread/">Spread</a></p>
-<p class="vcard__teaser">下北沢の地下箱。テクノとベース、音重視の機材構成</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
+          <p class="vcard__count">今後のS/A 4</p>
         </li>
       </ul>
     </section>
-    <section class="area" aria-labelledby="area-11">
+    <section class="area" aria-labelledby="area-7">
       <header class="area__head area__head--strip">
-        <h2 id="area-11" class="area__name">中野<span class="area__n mono">1</span></h2>
+        <h2 id="area-7" class="area__name">下北沢・高円寺<span class="area__n mono">5</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
@@ -674,28 +637,54 @@
           </div>
           <p class="vcard__count">今後のS/A 0</p>
         </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-12">
-      <header class="area__head area__head--strip">
-        <h2 id="area-12" class="area__name">大場<span class="area__n mono">1</span></h2>
-      </header>
-      <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/oba-camp-village/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/oba-camp-village.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          <a class="vcard__art" href="/venues/forestlimit/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/forestlimit.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/forestlimit.png" alt="" loading="lazy" decoding="async"></span>
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/oba-camp-village/">Oba Camp Village</a></p>
-<p class="vcard__teaser">都外の野外レイブ会場。INTERGALACTICなど</p>            <p class="vcard__facts"><span class="tag">混合</span><span>大箱</span></p>
+            <p class="vcard__name"><a href="/venues/forestlimit/">Forestlimit</a></p>
+<p class="vcard__teaser">幡ヶ谷の極小箱。実験・ベース系の音楽好きが集まる</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 50</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 3</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/counter-club/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/counter-club.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo"><img src="/static/logos/counter-club.svg" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/counter-club/">COUNTER CLUB</a></p>
+<p class="vcard__teaser">下北沢の音楽バー。田口音響の音でハウス/ディスコの朝へ</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 0</p>
+        </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/koenji-cave/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/koenji-cave.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/koenji-cave.png" alt="" loading="lazy" decoding="async"></span>
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/koenji-cave/">Koenji Cave</a></p>
+<p class="vcard__teaser">高円寺の小箱。23時〜6時、自主企画で回す音楽主体の夜</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
           </div>
           <p class="vcard__count">今後のS/A 1</p>
         </li>
+        <li class="vcard reveal">
+          <a class="vcard__art" href="/venues/spread/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/spread.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          </a>
+          <div class="vcard__body">
+            <p class="vcard__name"><a href="/venues/spread/">Spread</a></p>
+<p class="vcard__teaser">下北沢の地下箱。テクノとベース、音重視の機材構成</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
+          </div>
+          <p class="vcard__count">今後のS/A 0</p>
+        </li>
       </ul>
     </section>
-    <section class="area" aria-labelledby="area-13">
+    <section class="area" aria-labelledby="area-8">
       <header class="area__head area__head--strip">
-        <h2 id="area-13" class="area__name">大田区<span class="area__n mono">1</span></h2>
+        <h2 id="area-8" class="area__name">東京23区(その他)<span class="area__n mono">1</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
@@ -711,57 +700,20 @@
         </li>
       </ul>
     </section>
-    <section class="area" aria-labelledby="area-14">
+    <section class="area" aria-labelledby="area-9">
       <header class="area__head area__head--strip">
-        <h2 id="area-14" class="area__name">幡ヶ谷<span class="area__n mono">1</span></h2>
+        <h2 id="area-9" class="area__name">東京郊外<span class="area__n mono">1</span></h2>
       </header>
       <ul class="vlist">
         <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/forestlimit/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/forestlimit.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/forestlimit.png" alt="" loading="lazy" decoding="async"></span>
+          <a class="vcard__art" href="/venues/oba-camp-village/" aria-hidden="true" tabindex="-1">
+            <img class="vcard__poster" src="/static/posters/oba-camp-village.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
           </a>
           <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/forestlimit/">Forestlimit</a></p>
-<p class="vcard__teaser">幡ヶ谷の極小箱。実験・ベース系の音楽好きが集まる</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span><span>キャパ 50</span></p>
+            <p class="vcard__name"><a href="/venues/oba-camp-village/">Oba Camp Village</a></p>
+<p class="vcard__teaser">都外の野外レイブ会場。INTERGALACTICなど</p>            <p class="vcard__facts"><span class="tag">混合</span><span>大箱</span></p>
           </div>
           <p class="vcard__count">今後のS/A 1</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-15">
-      <header class="area__head area__head--strip">
-        <h2 id="area-15" class="area__name">銀座<span class="area__n mono">1</span></h2>
-      </header>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/zouk-tokyo/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/zouk-tokyo.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo"><img src="/static/logos/zouk-tokyo.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/zouk-tokyo/">Zouk Tokyo</a></p>
-<p class="vcard__teaser">銀座でVIPテーブル主体の盛り上がりパーティー</p>            <p class="vcard__facts"><span class="tag">パーティ型</span><span>大箱</span><span>キャパ 1000</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
-        </li>
-      </ul>
-    </section>
-    <section class="area" aria-labelledby="area-16">
-      <header class="area__head area__head--strip">
-        <h2 id="area-16" class="area__name">高円寺<span class="area__n mono">1</span></h2>
-      </header>
-      <ul class="vlist">
-        <li class="vcard reveal">
-          <a class="vcard__art" href="/venues/koenji-cave/" aria-hidden="true" tabindex="-1">
-            <img class="vcard__poster" src="/static/posters/koenji-cave.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
-            <span class="vcard__logo vcard__logo--dark"><img src="/static/logos/koenji-cave.png" alt="" loading="lazy" decoding="async"></span>
-          </a>
-          <div class="vcard__body">
-            <p class="vcard__name"><a href="/venues/koenji-cave/">Koenji Cave</a></p>
-<p class="vcard__teaser">高円寺の小箱。23時〜6時、自主企画で回す音楽主体の夜</p>            <p class="vcard__facts"><span class="tag">音楽型</span><span>小箱</span></p>
-          </div>
-          <p class="vcard__count">今後のS/A 0</p>
         </li>
       </ul>
     </section>
@@ -793,6 +745,7 @@
     <button class="btn" type="button" data-gate="leave">戻る</button>
   </div>
 </dialog>
-<script src="/static/site.js?v=158a0e23" defer></script>
+<script type="application/json" id="filter-ids">{"area":["aoyama-omotesando","daytrip","ebisu-daikanyama-nakameguro","expedition","ginza-shinbashi","ikebukuro","roppongi","shibuya","shimokitazawa-koenji","shinjuku","suburb","tokyo-other"],"type":["rave","festival","club","day"],"g":["techno","house","bass-dnb","hiphop-rnb","disco-funk","trance-psy","edm-pop","experimental"],"genre":["acid","afro-house","afro-tech","afrobeat","afrobeats","amapiano","ambient","baile-funk","balearic","ballroom","bass","breakbeat","breakcore","broken-beat","classical","dancehall","deep-house","dembow","disco","downtempo","drill","drone","drum-and-bass","dub","dub-techno","dubstep","ebm","edm","electro","electronica","experimental","footwork","funk-soul","gabber","garage","ghetto-tech","gqom","grime","guaracha","hard-drum","hard-techno","hardcore","hip-hop","house","idm","industrial","italo-disco","jazz","jungle","krautrock","kuduro","kwaito","latin-bass","minimal","minimal-techno","neo-perreo","new-wave","noise","pop","post-punk","progressive-house","psytrance","reggaeton","rio-funk","rnb","singeli","tech-house","techno","trance","uk-funky","vaporwave"],"fam_of":{"acid":"techno","afro-house":"house","afro-tech":"house","afrobeat":"disco-funk","afrobeats":"hiphop-rnb","amapiano":"house","ambient":"experimental","baile-funk":"bass-dnb","balearic":"disco-funk","ballroom":"house","bass":"bass-dnb","breakbeat":"bass-dnb","breakcore":"experimental","broken-beat":"house","dancehall":"hiphop-rnb","deep-house":"house","dembow":"hiphop-rnb","disco":"disco-funk","drill":"hiphop-rnb","drone":"experimental","drum-and-bass":"bass-dnb","dub":"experimental","dub-techno":"techno","dubstep":"bass-dnb","ebm":"techno","edm":"edm-pop","electro":"techno","electronica":"experimental","experimental":"experimental","footwork":"bass-dnb","funk-soul":"disco-funk","gabber":"techno","garage":"house","ghetto-tech":"bass-dnb","gqom":"house","grime":"bass-dnb","guaracha":"edm-pop","hard-drum":"techno","hard-techno":"techno","hardcore":"techno","hip-hop":"hiphop-rnb","house":"house","idm":"experimental","industrial":"techno","italo-disco":"disco-funk","jungle":"bass-dnb","kuduro":"bass-dnb","kwaito":"house","latin-bass":"bass-dnb","minimal":"techno","minimal-techno":"techno","neo-perreo":"hiphop-rnb","noise":"experimental","pop":"edm-pop","progressive-house":"house","psytrance":"trance-psy","reggaeton":"hiphop-rnb","rio-funk":"bass-dnb","rnb":"hiphop-rnb","singeli":"bass-dnb","tech-house":"house","techno":"techno","trance":"trance-psy","uk-funky":"bass-dnb"}}</script>
+<script src="/static/site.js?v=21a04cf0" defer></script>
 </body>
 </html>

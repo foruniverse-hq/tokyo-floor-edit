@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src &#39;self&#39; data: https://imgproxy.ra.co; media-src &#39;self&#39;; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>clubasia — Venue rating | Tokyo Peak Time</title>
 <meta name="description" content="Maruyamacho club open since 1996, mixing live shows and club nights.">
@@ -27,8 +28,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://imgproxy.ra.co">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Geist:wght@400;500&family=Geist+Mono:wght@400&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="/static/site.css?v=158a0e23">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicVenue","name":"clubasia","url":"https://tokyopeaktime.com/en/venues/clubasia/","image":"https://tokyopeaktime.com/static/og/venues/clubasia.png","address":{"@type":"PostalAddress","streetAddress":"東京都渋谷区円山町1-8","addressLocality":"Tokyo","addressCountry":"JP"},"sameAs":["https://clubasia.jp/","https://www.instagram.com/clubasia"],"maximumAttendeeCapacity":600}</script>
+<link rel="stylesheet" href="/static/site.css?v=21a04cf0">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicVenue","name":"clubasia","url":"https://tokyopeaktime.com/en/venues/clubasia/","image":"https://tokyopeaktime.com/static/og/venues/clubasia.png","address":{"@type":"PostalAddress","streetAddress":"東京都渋谷区円山町1-8","addressCountry":"JP"},"sameAs":["https://clubasia.jp/","https://www.instagram.com/clubasia"],"maximumAttendeeCapacity":600}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -43,7 +44,7 @@
       <a href="/en/venues/" aria-current="page">Venues</a>
       <a href="/en/criteria/">Criteria</a>
     </nav>
-    <a class="mast__lang" href="/venues/clubasia/" lang="ja" hreflang="ja">日本語</a>
+    <a class="mast__lang" href="/venues/clubasia/" lang="ja" hreflang="ja" data-carry>日本語</a>
     <button class="mast__toggle" type="button" aria-expanded="false" aria-controls="mast-nav">Menu</button>
   </div>
 </header>
@@ -58,21 +59,319 @@
   <header class="vhero">
     <div class="vhero__art">
       <img class="vhero__poster" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" fetchpriority="high" decoding="async">
-      <a class="vhero__logo vhero__logo--plate" href="https://clubasia.jp/" target="_blank" rel="noopener"><img src="/static/logos/clubasia.png" alt="clubasia logo" decoding="async"></a>
+      <a class="vhero__logo vhero__logo--plate" href="https://clubasia.jp/" target="_blank" rel="noopener noreferrer"><img src="/static/logos/clubasia.png" alt="clubasia logo" decoding="async"></a>
     </div>
     <div class="vh">
       <h1>clubasia</h1>
       <p class="vh__facts"><span class="tag">Mixed</span><span>Mid</span><span>Shibuya</span></p>
-<p class="vh__teaser">Maruyamacho club open since 1996, mixing live shows and club nights.</p>      <p class="vlinks">
-<a href="https://clubasia.jp/" target="_blank" rel="noopener">Official site ↗</a><a href="https://www.instagram.com/clubasia" target="_blank" rel="noopener">Instagram ↗</a>      </p>
-      <dl class="facts">
+<p class="vh__teaser">Maruyamacho club open since 1996, mixing live shows and club nights.</p>      <dl class="facts">
         <dt>Capacity</dt><dd class="mono">600</dd>
         <dt>Area</dt><dd>Shibuya <span class="muted" lang="ja">（渋谷・円山町（道玄坂））</span></dd>
-<dt>Address</dt><dd>東京都渋谷区円山町1-8 <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%86%86%E5%B1%B1%E7%94%BA1-8" target="_blank" rel="noopener">Open in Google Maps ↗</a></dd><dt>Typical hours</dt><dd class="mono">公式イベント欄は夜イベントがOPEN/START 23:00</dd>        <dt>Updated</dt><dd class="mono">2026-10-14</dd>
-        <dt>Confidence</dt><dd>Medium</dd>
-      </dl>
+<dt>Address</dt><dd>東京都渋谷区円山町1-8 <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%86%86%E5%B1%B1%E7%94%BA1-8" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a></dd><dt>Typical hours</dt><dd class="mono">公式イベント欄は夜イベントがOPEN/START 23:00</dd>      </dl>
     </div>
   </header>
+
+  <section class="section vofficial" aria-labelledby="official-h">
+    <h2 id="official-h">Official site</h2>
+    <p class="vlinks">
+<a class="btn btn--out" href="https://clubasia.jp/" target="_blank" rel="noopener noreferrer">Official site ↗<span class="dom">clubasia.jp</span></a><a class="btn btn--out" href="https://clubasia.jp/events" target="_blank" rel="noopener noreferrer">Schedule ↗<span class="dom">clubasia.jp</span></a><a class="btn btn--out" href="https://www.instagram.com/clubasia" target="_blank" rel="noopener noreferrer">Instagram ↗<span class="dom">instagram.com</span></a>    </p>
+  </section>
+
+
+  <section class="section" aria-labelledby="upcoming-h">
+    <h2 id="upcoming-h">Schedule here, next 30 days</h2>
+    <ul class="rows">
+<li class="ev reveal" data-tier="B" data-id="ev_553f824a9fd2">
+  <a class="ev__art" href="/en/events/ev_553f824a9fd2/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vYTI4Y2QyOWM5NjkwMjU5MzU4ZGExNTBhN2JjOTZhMmMzMjgyY2U5Yi5qcGc" alt="PARTY HARD TUESDAY" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-20">10.20</time> <span class="muted">Tue</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_553f824a9fd2/" data-carry>PARTY HARD TUESDAY</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=dancehall#list" data-genre="dancehall">Dancehall</a></p>
+<p class="ev__line muted">DJ OZIKILLER · DJ YUSH · DIDIDI KOZO from DAUNTLESS · RACY BULLET</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 00:00</span>    <span class="ev__price">¥1,000–2,000 + drink</span>
+<a class="ev__out" href="https://clubasia.jp/events/261020-pht" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_bc4c631c1844">
+  <a class="ev__art" href="/en/events/ev_bc4c631c1844/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNWNjOTAyOGFhMjY3OGI2OWZlNDJkN2MyYmVhY2Y5YmQ4MzI5ZjFkZi5wbmc" alt="EXODUS vol.255" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-21">10.21</time> <span class="muted">Wed</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_bc4c631c1844/" data-carry>EXODUS vol.255</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hip-hop#list" data-genre="hip-hop">Hip-Hop</a></p>
+<p class="ev__line muted">FUJI TRILL · misa nakamura · Hirosson · Teru …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥1,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/exodus-vol.255" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_7f93c09b2699">
+  <a class="ev__art" href="/en/events/ev_7f93c09b2699/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNTUyZjVlNWQwYmFiOWZjMzAxYmI0MmE0NWNkOGUyNDc3MDRiNWI2Ni5qcGc" alt="club asia RASTA THURSDAY" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-22">10.22</time> <span class="muted">Thu</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_7f93c09b2699/" data-carry>club asia RASTA THURSDAY</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=dancehall#list" data-genre="dancehall">Dancehall</a></p>
+<p class="ev__line muted">OG Militant B · Shoma fr,dambosound · DJ KOTARO · RONCY …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥1,000–2,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/club-asia-rasta-thursday" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_6c522e3fd218">
+  <a class="ev__art" href="/en/events/ev_6c522e3fd218/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNWNlY2ZiOTYyYzNkYTY5NWViZDkxNDMyZmNlMzBlOGUzMTBiOTEwMi5qcGc" alt="club asia THUSRADY" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-22">10.22</time> <span class="muted">Thu</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_6c522e3fd218/" data-carry>club asia THUSRADY</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">Sekitova · illequal · Telematic Visions · Vís …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥1,000–2,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/club-asia-thursday-261022" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_fc15fa399f4c">
+  <a class="ev__art" href="/en/events/ev_fc15fa399f4c/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vOTJlZDRkZjFlNzg2YTNkOTcyZjhkMTEyNTQ5ZjBhMzU1ODY4ZWY5Ny5qcGc" alt="𝐂𝐇𝐑Ø𝐍𝐎𝐒 𝟐𝐧𝐝 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-23">10.23</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_fc15fa399f4c/" data-carry>𝐂𝐇𝐑Ø𝐍𝐎𝐒 𝟐𝐧𝐝 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hardcore#list" data-genre="hardcore">Hardcore</a><a class="gtag" href="/en/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">EVE · DALJAE · Sonia Lagoon · egomania …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥3,000–4,300 + drink</span>
+<a class="ev__out" href="https://clubasia.jp/events/%F0%9D%90%82%F0%9D%90%87%F0%9D%90%91%C3%B8%F0%9D%90%8D%F0%9D%90%8E%F0%9D%90%92-%F0%9D%9F%90%F0%9D%90%A7%F0%9D%90%9D-%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%AC%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%B2" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_39e11ed66506">
+  <a class="ev__art ev__art--poster" href="/en/events/ev_39e11ed66506/" data-carry aria-hidden="true" tabindex="-1">
+    <img class="ev__poster" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-23">10.23</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_39e11ed66506/" data-carry>𝐂𝐇𝐑𝐎𝐍𝐎𝐒 𝟐𝐧𝐝 𝐀𝐧𝐧𝐢𝐯𝐞𝐫𝐬𝐚𝐫𝐲</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hard-techno#list" data-genre="hard-techno">Hard Techno</a></p>
+  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price neutral">Price TBA</span>
+<a class="ev__out" href="https://www.clubasia.jp/events" target="_blank" rel="noopener noreferrer">Venue schedule ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_da30659bfa6e">
+  <a class="ev__art" href="/en/events/ev_da30659bfa6e/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vN2QxNzI0YmI0NjYwZTA3ODkzOTIxNjQ4NDdjZjI3YjgyMDZlZDQ1Ny5wbmc" alt="Circle eight" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-24">10.24</time> <span class="muted">Sat</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_da30659bfa6e/" data-carry>Circle eight</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hip-hop#list" data-genre="hip-hop">Hip-Hop</a></p>
+<p class="ev__line muted">Keigo · Saggypants Shimba · Assquake · Ash …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥3,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/261024club" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_6a538540e431">
+  <a class="ev__art" href="/en/events/ev_6a538540e431/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZmE3MjAyODE4OWY3ZTFmZDZiNjdiZDU4MDViMTAwMGJjN2M3Yjg4Yi5qcGc" alt="BLAHRMY × BAKU 『RESPECT FOR MY G&#39;s』 RELEASE LIVE in asia" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-25">10.25</time> <span class="muted">Sun</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_6a538540e431/" data-carry>BLAHRMY × BAKU 『RESPECT FOR MY G&#39;s』 RELEASE LIVE in asia</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hip-hop#list" data-genre="hip-hop">Hip-Hop</a></p>
+  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 17:00</span>    <span class="ev__price">¥3,900</span>
+<a class="ev__out" href="https://clubasia.jp/events" target="_blank" rel="noopener noreferrer">Venue schedule ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_354a84c4a91c">
+  <a class="ev__art" href="/en/events/ev_354a84c4a91c/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNWU4NTZlMTE4YmNhOGYwNmM2ZDg0ZjM4ZjJmZWM1ZmJhODE1ZjQyNy5qcGc" alt="魔界難入 Vol.5" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-25">10.25</time> <span class="muted">Sun</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_354a84c4a91c/" data-carry>魔界難入 Vol.5</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=experimental#list" data-genre="experimental">Experimental</a></p>
+<p class="ev__line muted">Can · Daichi Wago · Ichiro · nano odorine …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥3,500</span>
+<a class="ev__out" href="https://clubasia.jp/events/makai-irigatashi-5-261025" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_31bebe3e5663">
+  <a class="ev__art" href="/en/events/ev_31bebe3e5663/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vMzYwMWM5YjZiMWExMTI5NzYxNDhkMDJjYjk3ZTNlMWZjZjRlNTM3Yy5qcGc" alt="GOTICA CLUB × infuse into" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-26">10.26</time> <span class="muted">Mon</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_31bebe3e5663/" data-carry>GOTICA CLUB × infuse into</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=industrial#list" data-genre="industrial">Industrial</a><a class="gtag" href="/en/?genre=techno#list" data-genre="techno">Techno</a></p>
+<p class="ev__line muted">ASIN · bloodymarii · SHO · YOXIKI …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥2,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/gotica-club-%C3%97-infuse-into-2" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_a294448b8b10">
+  <a class="ev__art" href="/en/events/ev_a294448b8b10/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZGIzNzRhZGZhMmI2NDJhNzc4ODdlN2I3MWE0MzcwYWZmYzBjMzc5My5wbmc" alt="EXODUS vol.256｜HALLOWEEN SPECIAL" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-28">10.28</time> <span class="muted">Wed</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_a294448b8b10/" data-carry>EXODUS vol.256｜HALLOWEEN SPECIAL</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hip-hop#list" data-genre="hip-hop">Hip-Hop</a></p>
+<p class="ev__line muted">FUJI TRILL · Jellyf!sh · hara · DJ Heero Yuy …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥1,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/exodus-vol.256%EF%BD%9Challoween-special" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_e629d7bd5bc5">
+  <a class="ev__art" href="/en/events/ev_e629d7bd5bc5/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vYTlkNjViYWZiODBkZmZiZjZiM2MwNjUyOGE5NTE1NTc4OWMzNjk4ZS5qcGc" alt="vandalo" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-29">10.29</time> <span class="muted">Thu</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_e629d7bd5bc5/" data-carry>vandalo</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=dub#list" data-genre="dub">Dub</a><a class="gtag" href="/en/?genre=house#list" data-genre="house">House</a></p>
+<p class="ev__line muted">CALPISS · Moodman · Rami · Shoma fr,dambosound …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥1,000–2,000</span>
+<a class="ev__out" href="https://clubasia.jp/events/vandalo-261029" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_181e02f6c63a">
+  <a class="ev__art" href="/en/events/ev_181e02f6c63a/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNjgxM2UwZGM1NjczMzA5ZDQyOGEwZmY3ZGM4ZDhjNjhkMGM4MjVhMS5qcGc" alt="YAGIKYUN HALLOWEEN PARTY 2K26 -N² 1st Album 『iDANCE2MUSIC』 release party-" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-30">10.30</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_181e02f6c63a/" data-carry>YAGIKYUN HALLOWEEN PARTY 2K26 -N² 1st Album 『iDANCE2MUSIC』 release party-</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=electro#list" data-genre="electro">Electro</a></p>
+<p class="ev__line muted">ecec · BiBiYUA · Cooper · JACKSON kaki …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥3,000–4,000 + drink</span>
+<a class="ev__out" href="https://clubasia.jp/events/261030-yagikyunhalloween" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_b2ea74652729">
+  <a class="ev__art" href="/en/events/ev_b2ea74652729/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNTE1YjRmNjE5NTBlMDkxOGEyOGJhZTQ1OGU4YzlkYWI4NWJjYTA0Yy5wbmc" alt="EMO NIGHT HALLOWEEN" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-10-31">10.31</time> <span class="muted">Sat</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_b2ea74652729/" data-carry>EMO NIGHT HALLOWEEN</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hardcore#list" data-genre="hardcore">Hardcore</a><a class="gtag" href="/en/?genre=pop#list" data-genre="pop">Pop</a></p>
+<p class="ev__line muted">Tom · DJ SUBURBIA · BURNING SANDWICHE 1号 · 🩸Blood bag cocktails/Syringe shots available …</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 22:30</span>    <span class="ev__price">¥2,800–3,300 + drink</span>
+<a class="ev__out" href="https://clubasia.jp/events/emo-night-halloween" target="_blank" rel="noopener noreferrer">Official event page ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_7f7335083f44">
+  <a class="ev__art" href="/en/events/ev_7f7335083f44/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZDNlZTA3MmJkNzUwMmFiZmZlMWRkOGU4ZWM3NWUyYjYxYWNhMjNlMi5qcGc" alt="&#39;BEAT BOUTIQUE ll&#39;" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-11-06">11.06</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_7f7335083f44/" data-carry>&#39;BEAT BOUTIQUE ll&#39;</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=breakbeat#list" data-genre="breakbeat">Breakbeat</a></p>
+<p class="ev__line muted">Olive Oil · POM · JASS</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥4,000</span>
+<a class="ev__out" href="https://clubasia.jp/events" target="_blank" rel="noopener noreferrer">Venue schedule ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_d9811d5a2a74">
+  <a class="ev__art" href="/en/events/ev_d9811d5a2a74/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZTRjNWQ4NjQ5NGQ0OTE1MTIxZDcyZmVhMDgyMjc4ODJiZjdhNDk3ZC5qcGc" alt="VEXRA TOKYO: MUST DIE" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-11-07">11.07</time> <span class="muted">Sat</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_d9811d5a2a74/" data-carry>VEXRA TOKYO: MUST DIE</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=bass#list" data-genre="bass">Bass</a><a class="gtag" href="/en/?genre=dubstep#list" data-genre="dubstep">Dubstep</a></p>
+<p class="ev__line muted">kors k · Rëgret</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥4,000</span>
+<a class="ev__out" href="https://clubasia.jp/events" target="_blank" rel="noopener noreferrer">Venue schedule ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+<li class="ev reveal" data-tier="B" data-id="ev_337b6ba308d5">
+  <a class="ev__art" href="/en/events/ev_337b6ba308d5/" data-carry aria-hidden="true" tabindex="-1">
+<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vN2E2ZmYwZDM0NTk3ZDI3YmExNTcwYjQxMmQ5NWYzMGZkYWQyODQzMy5qcGc" alt="DIGGIN&#39; OKINAWA" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-flyer data-fallback="/static/posters/clubasia.svg">
+
+  </a>
+  <div class="ev__body">
+<p class="ev__date mono"><time datetime="2026-11-13">11.13</time> <span class="muted">Fri</span></p>    <p class="ev__head">
+      <a class="ev__title" href="/en/events/ev_337b6ba308d5/" data-carry>DIGGIN&#39; OKINAWA</a>
+    </p>
+    <p class="ev__genres"><a class="gtag" href="/en/?genre=hip-hop#list" data-genre="hip-hop">Hip-Hop</a></p>
+<p class="ev__line muted">Muro · Keigo · Jave</p>  </div>
+  <div class="ev__meta">
+<span class="mono">OPEN 23:00</span>    <span class="ev__price">¥4,000</span>
+<a class="ev__out" href="https://clubasia.jp/events" target="_blank" rel="noopener noreferrer">Venue schedule ↗<span class="dom">clubasia.jp</span></a>
+
+  </div>
+</li>
+    </ul>
+    <p class="credit">Image: Resident Advisor (promoter)</p>
+  </section>
 
   <section class="section prose">
     <h2>What to expect here</h2>
@@ -88,131 +387,14 @@
       <dt>Crowd</dt><dd>—</dd>
       <dt>Pricing</dt><dd>—</dd>
       <dt>Dress code</dt><dd>—</dd>
+      <dt>Updated</dt><dd class="mono">2026-10-14</dd>
+      <dt>Confidence</dt><dd>Medium</dd>
     </dl>
     <p class="vlinks">
       <a href="/en/criteria/">About this rating</a>
       <a href="mailto:hayashi@foruniverse.jp?subject=[Correction] clubasia">Request a correction</a>
     </p>
     <p class="notice">20+ only, photo ID required</p>
-  </section>
-
-  <section class="section">
-    <h2>Nights here, next 30 days</h2>
-    <ul class="rows">
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2526187" target="_blank" rel="noopener" aria-label="View on RA: Tommy Guerrero New Album Release - &#39;Pawn Shop Melodies&#39; (Japan Tour)">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNGQxYWY5M2IwZTg5YmI2YzhlMWQyZDYwZTA2N2Y5YjllODMxNWU4MC5qcGc" alt="Tommy Guerrero New Album Release - &#39;Pawn Shop Melodies&#39; (Japan Tour)" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-10-19">10.19</time> <span class="muted">Mon</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2526187/">Tommy Guerrero New Album Release - &#39;Pawn Shop Melodies&#39; (Japan Tour)</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 18:00</span><span>¥6,500</span><span>87 going</span><a class="ev__out" href="https://ra.co/events/2526187" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="A">
-  <a class="ev__art" href="https://ra.co/events/2542644" target="_blank" rel="noopener" aria-label="View on RA: CHRØNOS">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vOTJlZDRkZjFlNzg2YTNkOTcyZjhkMTEyNTQ5ZjBhMzU1ODY4ZWY5Ny5qcGc" alt="CHRØNOS" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-10-23">10.23</time> <span class="muted">Fri</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>A</span>
-      <a class="ev__title" href="/en/events/2542644/">CHRØNOS</a>
-    </p>
-<p class="ev__line neutral">Ticketed, popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>¥3,000</span><span>81 going</span><a class="ev__out" href="https://ra.co/events/2542644" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2554226" target="_blank" rel="noopener" aria-label="View on RA: BLAHRMY × BAKU 『RESPECT FOR MY G&#39;s』 RELEASE LIVE in asia">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZmE3MjAyODE4OWY3ZTFmZDZiNjdiZDU4MDViMTAwMGJjN2M3Yjg4Yi5qcGc" alt="BLAHRMY × BAKU 『RESPECT FOR MY G&#39;s』 RELEASE LIVE in asia" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-10-25">10.25</time> <span class="muted">Sun</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2554226/">BLAHRMY × BAKU 『RESPECT FOR MY G&#39;s』 RELEASE LIVE in asia</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 17:00</span><span>¥3,900</span><span>59 going</span><a class="ev__out" href="https://ra.co/events/2554226" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2552440" target="_blank" rel="noopener" aria-label="View on RA: 魔界難入 Vol.5">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vNWU4NTZlMTE4YmNhOGYwNmM2ZDg0ZjM4ZjJmZWM1ZmJhODE1ZjQyNy5qcGc" alt="魔界難入 Vol.5" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-10-25">10.25</time> <span class="muted">Sun</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2552440/">魔界難入 Vol.5</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>¥3,500</span><span>55 going</span><a class="ev__out" href="https://ra.co/events/2552440" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2552447" target="_blank" rel="noopener" aria-label="View on RA: GOTICA CLUB X INFUSE_INTO">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vMzYwMWM5YjZiMWExMTI5NzYxNDhkMDJjYjk3ZTNlMWZjZjRlNTM3Yy5qcGc" alt="GOTICA CLUB X INFUSE_INTO" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-10-26">10.26</time> <span class="muted">Mon</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2552447/">GOTICA CLUB X INFUSE_INTO</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>¥2,000</span><span>61 going</span><a class="ev__out" href="https://ra.co/events/2552447" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2554218" target="_blank" rel="noopener" aria-label="View on RA: &#39;BEAT BOUTIQUE ll&#39;">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZDNlZTA3MmJkNzUwMmFiZmZlMWRkOGU4ZWM3NWUyYjYxYWNhMjNlMi5qcGc" alt="&#39;BEAT BOUTIQUE ll&#39;" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-11-06">11.06</time> <span class="muted">Fri</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2554218/">&#39;BEAT BOUTIQUE ll&#39;</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>¥4,000</span><span>57 going</span><a class="ev__out" href="https://ra.co/events/2554218" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="S">
-  <a class="ev__art" href="https://ra.co/events/2530141" target="_blank" rel="noopener" aria-label="View on RA: VEXRA TOKYO: MUST DIE">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vZTRjNWQ4NjQ5NGQ0OTE1MTIxZDcyZmVhMDgyMjc4ODJiZjdhNDk3ZC5qcGc" alt="VEXRA TOKYO: MUST DIE" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-11-07">11.07</time> <span class="muted">Sat</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>S</span>
-      <a class="ev__title" href="/en/events/2530141/">VEXRA TOKYO: MUST DIE</a>
-    </p>
-<p class="ev__line neutral">Big party</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>4,000</span><span>141 going</span><a class="ev__out" href="https://ra.co/events/2530141" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-<li class="ev reveal" data-tier="B">
-  <a class="ev__art" href="https://ra.co/events/2554222" target="_blank" rel="noopener" aria-label="View on RA: DIGGIN&#39; OKINAWA">
-<img class="ev__art-bg" src="/static/posters/clubasia.svg" alt="" aria-hidden="true" width="1200" height="630" loading="lazy" decoding="async">    <img class="ev__flyer" src="https://imgproxy.ra.co/_/quality:70/w:640/rt:fit/aHR0cHM6Ly9pbWFnZXMucmEuY28vN2E2ZmYwZDM0NTk3ZDI3YmExNTcwYjQxMmQ5NWYzMGZkYWQyODQzMy5qcGc" alt="DIGGIN&#39; OKINAWA" width="640" height="800" loading="lazy" referrerpolicy="no-referrer" decoding="async" data-fallback="/static/posters/clubasia.svg" onerror="this.onerror=null;if(this.dataset.fallback){this.src=this.dataset.fallback;this.classList.add('is-fallback');this.closest('figure')?.querySelector('.credit')?.remove();}else{this.closest('figure, .ev__art, a')?.classList.add('no-flyer');this.remove();}">
-
-  </a>
-  <div class="ev__body">
-<p class="ev__date mono"><time datetime="2026-11-13">11.13</time> <span class="muted">Fri</span></p>    <p class="ev__head">
-      <span class="ev__tier"><span class="visually-hidden">Tier </span>B</span>
-      <a class="ev__title" href="/en/events/2554222/">DIGGIN&#39; OKINAWA</a>
-    </p>
-<p class="ev__line neutral">Popular</p>  </div>
-  <div class="ev__meta">
-<span class="mono">OPEN 23:00</span><span>¥4,000</span><span>53 going</span><a class="ev__out" href="https://ra.co/events/2554222" target="_blank" rel="noopener">RA ↗</a>  </div>
-</li>
-    </ul>
-    <p class="credit">Image: Resident Advisor (promoter)</p>
   </section>
 </div>
 </main>
@@ -241,6 +423,7 @@
     <button class="btn" type="button" data-gate="leave">Leave</button>
   </div>
 </dialog>
-<script src="/static/site.js?v=158a0e23" defer></script>
+<script type="application/json" id="filter-ids">{"area":["aoyama-omotesando","daytrip","ebisu-daikanyama-nakameguro","expedition","ginza-shinbashi","ikebukuro","roppongi","shibuya","shimokitazawa-koenji","shinjuku","suburb","tokyo-other"],"type":["rave","festival","club","day"],"g":["techno","house","bass-dnb","hiphop-rnb","disco-funk","trance-psy","edm-pop","experimental"],"genre":["acid","afro-house","afro-tech","afrobeat","afrobeats","amapiano","ambient","baile-funk","balearic","ballroom","bass","breakbeat","breakcore","broken-beat","classical","dancehall","deep-house","dembow","disco","downtempo","drill","drone","drum-and-bass","dub","dub-techno","dubstep","ebm","edm","electro","electronica","experimental","footwork","funk-soul","gabber","garage","ghetto-tech","gqom","grime","guaracha","hard-drum","hard-techno","hardcore","hip-hop","house","idm","industrial","italo-disco","jazz","jungle","krautrock","kuduro","kwaito","latin-bass","minimal","minimal-techno","neo-perreo","new-wave","noise","pop","post-punk","progressive-house","psytrance","reggaeton","rio-funk","rnb","singeli","tech-house","techno","trance","uk-funky","vaporwave"],"fam_of":{"acid":"techno","afro-house":"house","afro-tech":"house","afrobeat":"disco-funk","afrobeats":"hiphop-rnb","amapiano":"house","ambient":"experimental","baile-funk":"bass-dnb","balearic":"disco-funk","ballroom":"house","bass":"bass-dnb","breakbeat":"bass-dnb","breakcore":"experimental","broken-beat":"house","dancehall":"hiphop-rnb","deep-house":"house","dembow":"hiphop-rnb","disco":"disco-funk","drill":"hiphop-rnb","drone":"experimental","drum-and-bass":"bass-dnb","dub":"experimental","dub-techno":"techno","dubstep":"bass-dnb","ebm":"techno","edm":"edm-pop","electro":"techno","electronica":"experimental","experimental":"experimental","footwork":"bass-dnb","funk-soul":"disco-funk","gabber":"techno","garage":"house","ghetto-tech":"bass-dnb","gqom":"house","grime":"bass-dnb","guaracha":"edm-pop","hard-drum":"techno","hard-techno":"techno","hardcore":"techno","hip-hop":"hiphop-rnb","house":"house","idm":"experimental","industrial":"techno","italo-disco":"disco-funk","jungle":"bass-dnb","kuduro":"bass-dnb","kwaito":"house","latin-bass":"bass-dnb","minimal":"techno","minimal-techno":"techno","neo-perreo":"hiphop-rnb","noise":"experimental","pop":"edm-pop","progressive-house":"house","psytrance":"trance-psy","reggaeton":"hiphop-rnb","rio-funk":"bass-dnb","rnb":"hiphop-rnb","singeli":"bass-dnb","tech-house":"house","techno":"techno","trance":"trance-psy","uk-funky":"bass-dnb"}}</script>
+<script src="/static/site.js?v=21a04cf0" defer></script>
 </body>
 </html>
