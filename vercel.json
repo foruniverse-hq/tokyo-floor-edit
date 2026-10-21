@@ -454,12 +454,12 @@
     },
     {
       "source": "/events/2537555",
-      "destination": "/events/ev_5d72617ec865",
+      "destination": "/venues/womb",
       "permanent": true
     },
     {
       "source": "/en/events/2537555",
-      "destination": "/en/events/ev_5d72617ec865",
+      "destination": "/en/venues/womb",
       "permanent": true
     },
     {
@@ -484,12 +484,12 @@
     },
     {
       "source": "/events/2538391",
-      "destination": "/events/ev_13ab0bdccbef",
+      "destination": "/venues/enter-shibuya",
       "permanent": true
     },
     {
       "source": "/en/events/2538391",
-      "destination": "/en/events/ev_13ab0bdccbef",
+      "destination": "/en/venues/enter-shibuya",
       "permanent": true
     },
     {
