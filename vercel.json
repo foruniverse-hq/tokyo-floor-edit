@@ -84,12 +84,12 @@
     },
     {
       "source": "/events/20261121-11-21-tsha-japan-tour-tokyo",
-      "destination": "/venues/circus-tokyo",
+      "destination": "/events/ev_32029ae49d56",
       "permanent": true
     },
     {
       "source": "/en/events/20261121-11-21-tsha-japan-tour-tokyo",
-      "destination": "/en/venues/circus-tokyo",
+      "destination": "/en/events/ev_32029ae49d56",
       "permanent": true
     },
     {
@@ -434,12 +434,12 @@
     },
     {
       "source": "/events/2534915",
-      "destination": "/events/ev_4174a957b6ed",
+      "destination": "/venues/womb",
       "permanent": true
     },
     {
       "source": "/en/events/2534915",
-      "destination": "/en/events/ev_4174a957b6ed",
+      "destination": "/en/venues/womb",
       "permanent": true
     },
     {
@@ -854,12 +854,12 @@
     },
     {
       "source": "/events/2554226",
-      "destination": "/events/ev_6a538540e431",
+      "destination": "/events/ev_354a84c4a91c",
       "permanent": true
     },
     {
       "source": "/en/events/2554226",
-      "destination": "/en/events/ev_6a538540e431",
+      "destination": "/en/events/ev_354a84c4a91c",
       "permanent": true
     },
     {
