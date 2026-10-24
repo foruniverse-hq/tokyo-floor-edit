@@ -244,12 +244,12 @@
     },
     {
       "source": "/events/2522407",
-      "destination": "/events/ev_79fff6445390",
+      "destination": "/venues/womb",
       "permanent": true
     },
     {
       "source": "/en/events/2522407",
-      "destination": "/en/events/ev_79fff6445390",
+      "destination": "/en/venues/womb",
       "permanent": true
     },
     {
@@ -334,12 +334,12 @@
     },
     {
       "source": "/events/2529281",
-      "destination": "/events/ev_66cdacf4366f",
+      "destination": "/venues/vent",
       "permanent": true
     },
     {
       "source": "/en/events/2529281",
-      "destination": "/en/events/ev_66cdacf4366f",
+      "destination": "/en/venues/vent",
       "permanent": true
     },
     {
@@ -414,12 +414,12 @@
     },
     {
       "source": "/events/2532821",
-      "destination": "/events/ev_fb02bd71219a",
+      "destination": "/venues/utopia-dystopia",
       "permanent": true
     },
     {
       "source": "/en/events/2532821",
-      "destination": "/en/events/ev_fb02bd71219a",
+      "destination": "/en/venues/utopia-dystopia",
       "permanent": true
     },
     {
@@ -744,12 +744,12 @@
     },
     {
       "source": "/events/2550857",
-      "destination": "/events/ev_1db2682226fc",
+      "destination": "/venues/forestlimit",
       "permanent": true
     },
     {
       "source": "/en/events/2550857",
-      "destination": "/en/events/ev_1db2682226fc",
+      "destination": "/en/venues/forestlimit",
       "permanent": true
     },
     {
@@ -884,22 +884,22 @@
     },
     {
       "source": "/events/2554736",
-      "destination": "/events/ev_c8ca18dfe8ec",
+      "destination": "/venues/z-maruyama",
       "permanent": true
     },
     {
       "source": "/en/events/2554736",
-      "destination": "/en/events/ev_c8ca18dfe8ec",
+      "destination": "/en/venues/z-maruyama",
       "permanent": true
     },
     {
       "source": "/events/2555317",
-      "destination": "/events/ev_564f61a7c9f8",
+      "destination": "/venues/circus-tokyo",
       "permanent": true
     },
     {
       "source": "/en/events/2555317",
-      "destination": "/en/events/ev_564f61a7c9f8",
+      "destination": "/en/venues/circus-tokyo",
       "permanent": true
     },
     {
@@ -954,12 +954,12 @@
     },
     {
       "source": "/events/2557811",
-      "destination": "/events/ev_5f85e229660e",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/en/events/2557811",
-      "destination": "/en/events/ev_5f85e229660e",
+      "destination": "/en",
       "permanent": true
     },
     {
