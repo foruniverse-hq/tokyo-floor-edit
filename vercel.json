@@ -34,12 +34,12 @@
     },
     {
       "source": "/events/20261025-force-festival-presents-official-after-party-magic-city-toky",
-      "destination": "/events/ev_511b5a5c18bc",
+      "destination": "/venues/zerotokyo",
       "permanent": true
     },
     {
       "source": "/en/events/20261025-force-festival-presents-official-after-party-magic-city-toky",
-      "destination": "/en/events/ev_511b5a5c18bc",
+      "destination": "/en/venues/zerotokyo",
       "permanent": true
     },
     {
@@ -234,12 +234,12 @@
     },
     {
       "source": "/events/2520885",
-      "destination": "/events/ev_809b183a9f02",
+      "destination": "/venues/zerotokyo",
       "permanent": true
     },
     {
       "source": "/en/events/2520885",
-      "destination": "/en/events/ev_809b183a9f02",
+      "destination": "/en/venues/zerotokyo",
       "permanent": true
     },
     {
@@ -444,12 +444,12 @@
     },
     {
       "source": "/events/2537185",
-      "destination": "/events/ev_6cd9c09b7b9e",
+      "destination": "/venues/royal-lounge",
       "permanent": true
     },
     {
       "source": "/en/events/2537185",
-      "destination": "/en/events/ev_6cd9c09b7b9e",
+      "destination": "/en/venues/royal-lounge",
       "permanent": true
     },
     {
@@ -784,12 +784,12 @@
     },
     {
       "source": "/events/2552440",
-      "destination": "/events/ev_354a84c4a91c",
+      "destination": "/venues/clubasia",
       "permanent": true
     },
     {
       "source": "/en/events/2552440",
-      "destination": "/en/events/ev_354a84c4a91c",
+      "destination": "/en/venues/clubasia",
       "permanent": true
     },
     {
@@ -854,12 +854,12 @@
     },
     {
       "source": "/events/2554226",
-      "destination": "/events/ev_354a84c4a91c",
+      "destination": "/venues/clubasia",
       "permanent": true
     },
     {
       "source": "/en/events/2554226",
-      "destination": "/en/events/ev_354a84c4a91c",
+      "destination": "/en/venues/clubasia",
       "permanent": true
     },
     {
